@@ -1,0 +1,32 @@
+[2026-08-06T21:33:13.294+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour2_dependances.extraire_paca manual__2026-08-06T21:31:00.159821+00:00 [queued]>
+[2026-08-06T21:33:13.309+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour2_dependances.extraire_paca manual__2026-08-06T21:31:00.159821+00:00 [queued]>
+[2026-08-06T21:33:13.310+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-08-06T21:33:13.328+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extraire_paca> on 2026-08-06 21:31:00.159821+00:00
+[2026-08-06T21:33:13.340+0000] {standard_task_runner.py:60} INFO - Started process 582 to run task
+[2026-08-06T21:33:13.345+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour2_dependances', 'extraire_paca', 'manual__2026-08-06T21:31:00.159821+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/dag_dependencies.py', '--cfg-path', '/tmp/tmp6xmefa_a']
+[2026-08-06T21:33:13.347+0000] {standard_task_runner.py:88} INFO - Job 69: Subtask extraire_paca
+[2026-08-06T21:33:13.428+0000] {task_command.py:423} INFO - Running <TaskInstance: jour2_dependances.extraire_paca manual__2026-08-06T21:31:00.159821+00:00 [running]> on host c1d6dbc90864
+[2026-08-06T21:33:13.518+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour2_dependances' AIRFLOW_CTX_TASK_ID='extraire_paca' AIRFLOW_CTX_EXECUTION_DATE='2026-08-06T21:31:00.159821+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-06T21:31:00.159821+00:00'
+[2026-08-06T21:33:13.523+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_dependencies.py", line 41, in extraire_region
+    df = pd.DataFrame({
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 709, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 481, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 115, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 655, in _extract_index
+    raise ValueError("All arrays must be of the same length")
+ValueError: All arrays must be of the same length
+[2026-08-06T21:33:13.540+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=jour2_dependances, task_id=extraire_paca, execution_date=20260806T213100, start_date=20260806T213313, end_date=20260806T213313
+[2026-08-06T21:33:13.559+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 69 for task extraire_paca (All arrays must be of the same length; 582)
+[2026-08-06T21:33:13.598+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-06T21:33:13.669+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

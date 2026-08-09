@@ -1,0 +1,17 @@
+[2026-08-06T21:16:47.968+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour1_hello_world.pipeline_termine manual__2026-08-06T21:16:39+00:00 [queued]>
+[2026-08-06T21:16:47.976+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour1_hello_world.pipeline_termine manual__2026-08-06T21:16:39+00:00 [queued]>
+[2026-08-06T21:16:47.977+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-06T21:16:47.988+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): pipeline_termine> on 2026-08-06 21:16:39+00:00
+[2026-08-06T21:16:47.994+0000] {standard_task_runner.py:60} INFO - Started process 266 to run task
+[2026-08-06T21:16:47.998+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour1_hello_world', 'pipeline_termine', 'manual__2026-08-06T21:16:39+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/dag_hello_world.py', '--cfg-path', '/tmp/tmpytolnr90']
+[2026-08-06T21:16:47.999+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask pipeline_termine
+[2026-08-06T21:16:48.060+0000] {task_command.py:423} INFO - Running <TaskInstance: jour1_hello_world.pipeline_termine manual__2026-08-06T21:16:39+00:00 [running]> on host c1d6dbc90864
+[2026-08-06T21:16:48.144+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour1_hello_world' AIRFLOW_CTX_TASK_ID='pipeline_termine' AIRFLOW_CTX_EXECUTION_DATE='2026-08-06T21:16:39+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-06T21:16:39+00:00'
+[2026-08-06T21:16:48.146+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-06T21:16:48.147+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Pipeline du 2026-08-06 terminé avec succès ✓"']
+[2026-08-06T21:16:48.162+0000] {subprocess.py:86} INFO - Output:
+[2026-08-06T21:16:48.166+0000] {subprocess.py:93} INFO - Pipeline du 2026-08-06 terminé avec succès ✓
+[2026-08-06T21:16:48.168+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-06T21:16:48.197+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour1_hello_world, task_id=pipeline_termine, execution_date=20260806T211639, start_date=20260806T211647, end_date=20260806T211648
+[2026-08-06T21:16:48.250+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-06T21:16:48.268+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

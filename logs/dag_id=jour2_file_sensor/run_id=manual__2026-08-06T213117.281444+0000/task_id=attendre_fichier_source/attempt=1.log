@@ -1,0 +1,30 @@
+[2026-08-06T21:31:23.254+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour2_file_sensor.attendre_fichier_source manual__2026-08-06T21:31:17.281444+00:00 [queued]>
+[2026-08-06T21:31:23.273+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour2_file_sensor.attendre_fichier_source manual__2026-08-06T21:31:17.281444+00:00 [queued]>
+[2026-08-06T21:31:23.275+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-06T21:31:23.309+0000] {taskinstance.py:2191} INFO - Executing <Task(FileSensor): attendre_fichier_source> on 2026-08-06 21:31:17.281444+00:00
+[2026-08-06T21:31:23.324+0000] {standard_task_runner.py:60} INFO - Started process 537 to run task
+[2026-08-06T21:31:23.331+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour2_file_sensor', 'attendre_fichier_source', 'manual__2026-08-06T21:31:17.281444+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/dag_file_sensor.py', '--cfg-path', '/tmp/tmp_77lkq1x']
+[2026-08-06T21:31:23.333+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask attendre_fichier_source
+[2026-08-06T21:31:23.428+0000] {task_command.py:423} INFO - Running <TaskInstance: jour2_file_sensor.attendre_fichier_source manual__2026-08-06T21:31:17.281444+00:00 [running]> on host c1d6dbc90864
+[2026-08-06T21:31:23.543+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour2_file_sensor' AIRFLOW_CTX_TASK_ID='attendre_fichier_source' AIRFLOW_CTX_EXECUTION_DATE='2026-08-06T21:31:17.281444+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-06T21:31:17.281444+00:00'
+[2026-08-06T21:31:23.587+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 265, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 247, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/filesystem.py", line 63, in poke
+    hook = FSHook(self.fs_conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/filesystem.py", line 64, in __init__
+    conn = self.get_connection(fs_conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 82, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 479, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `fs_default` isn't defined
+[2026-08-06T21:31:23.591+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jour2_file_sensor, task_id=attendre_fichier_source, execution_date=20260806T213117, start_date=20260806T213123, end_date=20260806T213123
+[2026-08-06T21:31:23.615+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 62 for task attendre_fichier_source (The conn_id `fs_default` isn't defined; 537)
+[2026-08-06T21:31:23.666+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-06T21:31:23.698+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
