@@ -1,0 +1,14 @@
+[2026-08-10T23:13:12.846+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour4_taskflow_avance.extraction_regionale.extraire_ge manual__2026-08-10T23:13:02.531941+00:00 [queued]>
+[2026-08-10T23:13:12.940+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour4_taskflow_avance.extraction_regionale.extraire_ge manual__2026-08-10T23:13:02.531941+00:00 [queued]>
+[2026-08-10T23:13:12.948+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-10T23:13:13.027+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraction_regionale.extraire_ge> on 2026-08-10 23:13:02.531941+00:00
+[2026-08-10T23:13:13.057+0000] {standard_task_runner.py:60} INFO - Started process 351 to run task
+[2026-08-10T23:13:13.076+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour4_taskflow_avance', 'extraction_regionale.extraire_ge', 'manual__2026-08-10T23:13:02.531941+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/dag_taskflow_avance.py', '--cfg-path', '/tmp/tmpodkpr7ef']
+[2026-08-10T23:13:13.079+0000] {standard_task_runner.py:88} INFO - Job 189: Subtask extraction_regionale.extraire_ge
+[2026-08-10T23:13:13.261+0000] {task_command.py:423} INFO - Running <TaskInstance: jour4_taskflow_avance.extraction_regionale.extraire_ge manual__2026-08-10T23:13:02.531941+00:00 [running]> on host 7fb80272d6a8
+[2026-08-10T23:13:13.464+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour4_taskflow_avance' AIRFLOW_CTX_TASK_ID='extraction_regionale.extraire_ge' AIRFLOW_CTX_EXECUTION_DATE='2026-08-10T23:13:02.531941+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-10T23:13:02.531941+00:00'
+[2026-08-10T23:13:13.484+0000] {logging_mixin.py:188} INFO - Grand Est extrait : 1 vendeurs
+[2026-08-10T23:13:13.487+0000] {python.py:201} INFO - Done. Returned value was: /tmp/ge_2026-08-10.csv
+[2026-08-10T23:13:13.582+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour4_taskflow_avance, task_id=extraction_regionale.extraire_ge, execution_date=20260810T231302, start_date=20260810T231312, end_date=20260810T231313
+[2026-08-10T23:13:13.706+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-10T23:13:13.780+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
