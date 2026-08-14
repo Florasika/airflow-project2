@@ -1,0 +1,20 @@
+[2026-08-14T09:30:14.612+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour3_http_hook.traiter_resultats scheduled__2026-08-13T00:00:00+00:00 [queued]>
+[2026-08-14T09:30:14.672+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour3_http_hook.traiter_resultats scheduled__2026-08-13T00:00:00+00:00 [queued]>
+[2026-08-14T09:30:14.684+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-14T09:30:14.769+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): traiter_resultats> on 2026-08-13 00:00:00+00:00
+[2026-08-14T09:30:14.790+0000] {standard_task_runner.py:60} INFO - Started process 132 to run task
+[2026-08-14T09:30:14.888+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour3_http_hook', 'traiter_resultats', 'scheduled__2026-08-13T00:00:00+00:00', '--job-id', '233', '--raw', '--subdir', 'DAGS_FOLDER/dag_http_hook.py', '--cfg-path', '/tmp/tmp9y3vxklq']
+[2026-08-14T09:30:14.901+0000] {standard_task_runner.py:88} INFO - Job 233: Subtask traiter_resultats
+[2026-08-14T09:30:15.222+0000] {task_command.py:423} INFO - Running <TaskInstance: jour3_http_hook.traiter_resultats scheduled__2026-08-13T00:00:00+00:00 [running]> on host b9e878092d96
+[2026-08-14T09:30:16.074+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour3_http_hook' AIRFLOW_CTX_TASK_ID='traiter_resultats' AIRFLOW_CTX_EXECUTION_DATE='2026-08-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-13T00:00:00+00:00'
+[2026-08-14T09:30:16.177+0000] {logging_mixin.py:188} INFO - Traitement de 10 enregistrements
+[2026-08-14T09:30:16.201+0000] {logging_mixin.py:188} INFO -  id  userId                                                                      title
+  1       1 sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  2       1                                                               qui est esse
+  3       1                ea molestias quasi exercitationem repellat qui ipsa sit aut
+  4       1                                                       eum et est occaecati
+  5       1                                                         nesciunt quas odio
+[2026-08-14T09:30:16.208+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-14T09:30:16.254+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour3_http_hook, task_id=traiter_resultats, execution_date=20260813T000000, start_date=20260814T093014, end_date=20260814T093016
+[2026-08-14T09:30:16.429+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-14T09:30:16.647+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

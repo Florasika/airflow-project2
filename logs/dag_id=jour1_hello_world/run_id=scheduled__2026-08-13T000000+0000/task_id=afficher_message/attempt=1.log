@@ -1,0 +1,17 @@
+[2026-08-14T09:30:08.362+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour1_hello_world.afficher_message scheduled__2026-08-13T00:00:00+00:00 [queued]>
+[2026-08-14T09:30:08.435+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour1_hello_world.afficher_message scheduled__2026-08-13T00:00:00+00:00 [queued]>
+[2026-08-14T09:30:08.438+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-14T09:30:08.587+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): afficher_message> on 2026-08-13 00:00:00+00:00
+[2026-08-14T09:30:08.727+0000] {standard_task_runner.py:60} INFO - Started process 117 to run task
+[2026-08-14T09:30:08.776+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour1_hello_world', 'afficher_message', 'scheduled__2026-08-13T00:00:00+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/dag_hello_world.py', '--cfg-path', '/tmp/tmpfthmpgds']
+[2026-08-14T09:30:08.778+0000] {standard_task_runner.py:88} INFO - Job 226: Subtask afficher_message
+[2026-08-14T09:30:09.204+0000] {task_command.py:423} INFO - Running <TaskInstance: jour1_hello_world.afficher_message scheduled__2026-08-13T00:00:00+00:00 [running]> on host b9e878092d96
+[2026-08-14T09:30:09.937+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour1_hello_world' AIRFLOW_CTX_TASK_ID='afficher_message' AIRFLOW_CTX_EXECUTION_DATE='2026-08-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-13T00:00:00+00:00'
+[2026-08-14T09:30:09.961+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-14T09:30:09.969+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Airflow fonctionne ! Date : 2026-08-13"']
+[2026-08-14T09:30:10.053+0000] {subprocess.py:86} INFO - Output:
+[2026-08-14T09:30:10.064+0000] {subprocess.py:93} INFO - Airflow fonctionne ! Date : 2026-08-13
+[2026-08-14T09:30:10.084+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-14T09:30:10.240+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour1_hello_world, task_id=afficher_message, execution_date=20260813T000000, start_date=20260814T093008, end_date=20260814T093010
+[2026-08-14T09:30:10.392+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-14T09:30:10.584+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

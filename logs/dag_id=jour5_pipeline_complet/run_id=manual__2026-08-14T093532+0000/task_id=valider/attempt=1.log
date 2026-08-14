@@ -1,0 +1,14 @@
+[2026-08-14T09:35:39.684+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour5_pipeline_complet.valider manual__2026-08-14T09:35:32+00:00 [queued]>
+[2026-08-14T09:35:39.709+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour5_pipeline_complet.valider manual__2026-08-14T09:35:32+00:00 [queued]>
+[2026-08-14T09:35:39.710+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-14T09:35:39.740+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): valider> on 2026-08-14 09:35:32+00:00
+[2026-08-14T09:35:39.753+0000] {standard_task_runner.py:60} INFO - Started process 311 to run task
+[2026-08-14T09:35:39.769+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour5_pipeline_complet', 'valider', 'manual__2026-08-14T09:35:32+00:00', '--job-id', '267', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline_complet.py', '--cfg-path', '/tmp/tmpt0mscqdi']
+[2026-08-14T09:35:39.775+0000] {standard_task_runner.py:88} INFO - Job 267: Subtask valider
+[2026-08-14T09:35:39.972+0000] {task_command.py:423} INFO - Running <TaskInstance: jour5_pipeline_complet.valider manual__2026-08-14T09:35:32+00:00 [running]> on host b9e878092d96
+[2026-08-14T09:35:40.178+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour5_pipeline_complet' AIRFLOW_CTX_TASK_ID='valider' AIRFLOW_CTX_EXECUTION_DATE='2026-08-14T09:35:32+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-14T09:35:32+00:00'
+[2026-08-14T09:35:40.229+0000] {logging_mixin.py:188} INFO - ✓ Validation OK — 30 lignes, CA: 133190€, 0 erreur
+[2026-08-14T09:35:40.231+0000] {python.py:201} INFO - Done. Returned value was: {'nb_lignes': 30, 'ca_brut': 133190.0, 'is_valid': True}
+[2026-08-14T09:35:40.360+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour5_pipeline_complet, task_id=valider, execution_date=20260814T093532, start_date=20260814T093539, end_date=20260814T093540
+[2026-08-14T09:35:40.418+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-14T09:35:40.447+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
