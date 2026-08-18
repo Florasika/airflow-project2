@@ -1,0 +1,17 @@
+[2026-08-17T11:26:27.965+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour4_taskflow_avance.fin_pipeline scheduled__2026-08-16T00:00:00+00:00 [queued]>
+[2026-08-17T11:26:27.972+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour4_taskflow_avance.fin_pipeline scheduled__2026-08-16T00:00:00+00:00 [queued]>
+[2026-08-17T11:26:27.973+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-17T11:26:27.985+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): fin_pipeline> on 2026-08-16 00:00:00+00:00
+[2026-08-17T11:26:27.992+0000] {standard_task_runner.py:60} INFO - Started process 239 to run task
+[2026-08-17T11:26:27.995+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour4_taskflow_avance', 'fin_pipeline', 'scheduled__2026-08-16T00:00:00+00:00', '--job-id', '359', '--raw', '--subdir', 'DAGS_FOLDER/dag_taskflow_avance.py', '--cfg-path', '/tmp/tmph32dnmdr']
+[2026-08-17T11:26:27.996+0000] {standard_task_runner.py:88} INFO - Job 359: Subtask fin_pipeline
+[2026-08-17T11:26:28.053+0000] {task_command.py:423} INFO - Running <TaskInstance: jour4_taskflow_avance.fin_pipeline scheduled__2026-08-16T00:00:00+00:00 [running]> on host c8ee706333f2
+[2026-08-17T11:26:28.118+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour4_taskflow_avance' AIRFLOW_CTX_TASK_ID='fin_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2026-08-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-16T00:00:00+00:00'
+[2026-08-17T11:26:28.119+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-17T11:26:28.120+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Pipeline Jour 4 terminé — 2026-08-16 ✓"']
+[2026-08-17T11:26:28.133+0000] {subprocess.py:86} INFO - Output:
+[2026-08-17T11:26:28.134+0000] {subprocess.py:93} INFO - Pipeline Jour 4 terminé — 2026-08-16 ✓
+[2026-08-17T11:26:28.135+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-17T11:26:28.156+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour4_taskflow_avance, task_id=fin_pipeline, execution_date=20260816T000000, start_date=20260817T112627, end_date=20260817T112628
+[2026-08-17T11:26:28.209+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-17T11:26:28.259+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

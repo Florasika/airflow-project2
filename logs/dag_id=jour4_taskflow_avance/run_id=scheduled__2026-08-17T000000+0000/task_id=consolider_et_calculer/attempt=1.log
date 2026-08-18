@@ -1,0 +1,42 @@
+[2026-08-18T12:18:20.368+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour4_taskflow_avance.consolider_et_calculer scheduled__2026-08-17T00:00:00+00:00 [queued]>
+[2026-08-18T12:18:20.403+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour4_taskflow_avance.consolider_et_calculer scheduled__2026-08-17T00:00:00+00:00 [queued]>
+[2026-08-18T12:18:20.408+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-18T12:18:20.481+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): consolider_et_calculer> on 2026-08-17 00:00:00+00:00
+[2026-08-18T12:18:20.540+0000] {standard_task_runner.py:60} INFO - Started process 125 to run task
+[2026-08-18T12:18:20.561+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour4_taskflow_avance', 'consolider_et_calculer', 'scheduled__2026-08-17T00:00:00+00:00', '--job-id', '404', '--raw', '--subdir', 'DAGS_FOLDER/dag_taskflow_avance.py', '--cfg-path', '/tmp/tmpinle39uy']
+[2026-08-18T12:18:20.572+0000] {standard_task_runner.py:88} INFO - Job 404: Subtask consolider_et_calculer
+[2026-08-18T12:18:20.893+0000] {task_command.py:423} INFO - Running <TaskInstance: jour4_taskflow_avance.consolider_et_calculer scheduled__2026-08-17T00:00:00+00:00 [running]> on host 62af633ee778
+[2026-08-18T12:18:21.325+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour4_taskflow_avance' AIRFLOW_CTX_TASK_ID='consolider_et_calculer' AIRFLOW_CTX_EXECUTION_DATE='2026-08-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-17T00:00:00+00:00'
+[2026-08-18T12:18:21.421+0000] {logging_mixin.py:188} INFO - Fichier ge non trouvé — ignoré
+[2026-08-18T12:18:21.441+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ca'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_taskflow_avance.py", line 95, in consolider_et_calculer
+    ca_total    = int(df_all['ca'].sum())
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ca'
+[2026-08-18T12:18:21.518+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jour4_taskflow_avance, task_id=consolider_et_calculer, execution_date=20260817T000000, start_date=20260818T121820, end_date=20260818T121821
+[2026-08-18T12:18:21.687+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 404 for task consolider_et_calculer ('ca'; 125)
+[2026-08-18T12:18:21.885+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-18T12:18:22.335+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

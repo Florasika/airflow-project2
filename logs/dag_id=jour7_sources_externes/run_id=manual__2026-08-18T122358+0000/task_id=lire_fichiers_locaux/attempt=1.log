@@ -1,0 +1,15 @@
+[2026-08-18T12:25:41.322+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour7_sources_externes.lire_fichiers_locaux manual__2026-08-18T12:23:58+00:00 [queued]>
+[2026-08-18T12:25:41.363+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour7_sources_externes.lire_fichiers_locaux manual__2026-08-18T12:23:58+00:00 [queued]>
+[2026-08-18T12:25:41.368+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-08-18T12:25:41.443+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): lire_fichiers_locaux> on 2026-08-18 12:23:58+00:00
+[2026-08-18T12:25:41.510+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour7_sources_externes', 'lire_fichiers_locaux', 'manual__2026-08-18T12:23:58+00:00', '--job-id', '463', '--raw', '--subdir', 'DAGS_FOLDER/dag_sources_externes.py', '--cfg-path', '/tmp/tmpd5mi5gzu']
+[2026-08-18T12:25:41.484+0000] {standard_task_runner.py:60} INFO - Started process 393 to run task
+[2026-08-18T12:25:41.517+0000] {standard_task_runner.py:88} INFO - Job 463: Subtask lire_fichiers_locaux
+[2026-08-18T12:25:41.810+0000] {task_command.py:423} INFO - Running <TaskInstance: jour7_sources_externes.lire_fichiers_locaux manual__2026-08-18T12:23:58+00:00 [running]> on host 62af633ee778
+[2026-08-18T12:25:42.120+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour7_sources_externes' AIRFLOW_CTX_TASK_ID='lire_fichiers_locaux' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T12:23:58+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-18T12:23:58+00:00'
+[2026-08-18T12:25:42.151+0000] {logging_mixin.py:188} INFO - Fichiers créés : 5
+[2026-08-18T12:25:42.174+0000] {logging_mixin.py:188} INFO - Fichiers régions lus : 5 lignes
+[2026-08-18T12:25:42.175+0000] {python.py:201} INFO - Done. Returned value was: {'path': '/tmp/inbox_j7/regions_consolide_2026-08-18.csv', 'source': 'FICHIER_LOCAL', 'nb': 5}
+[2026-08-18T12:25:42.226+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour7_sources_externes, task_id=lire_fichiers_locaux, execution_date=20260818T122358, start_date=20260818T122541, end_date=20260818T122542
+[2026-08-18T12:25:42.274+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-18T12:25:42.303+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

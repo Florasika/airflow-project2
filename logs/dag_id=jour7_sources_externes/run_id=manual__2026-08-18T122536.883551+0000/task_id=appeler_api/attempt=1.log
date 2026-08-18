@@ -1,0 +1,14 @@
+[2026-08-18T12:25:41.560+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:25:36.883551+00:00 [queued]>
+[2026-08-18T12:25:41.618+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:25:36.883551+00:00 [queued]>
+[2026-08-18T12:25:41.620+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-08-18T12:25:41.689+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): appeler_api> on 2026-08-18 12:25:36.883551+00:00
+[2026-08-18T12:25:41.708+0000] {standard_task_runner.py:60} INFO - Started process 394 to run task
+[2026-08-18T12:25:41.760+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour7_sources_externes', 'appeler_api', 'manual__2026-08-18T12:25:36.883551+00:00', '--job-id', '464', '--raw', '--subdir', 'DAGS_FOLDER/dag_sources_externes.py', '--cfg-path', '/tmp/tmpgq_xq0ft']
+[2026-08-18T12:25:41.768+0000] {standard_task_runner.py:88} INFO - Job 464: Subtask appeler_api
+[2026-08-18T12:25:42.006+0000] {task_command.py:423} INFO - Running <TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:25:36.883551+00:00 [running]> on host 62af633ee778
+[2026-08-18T12:25:42.152+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour7_sources_externes' AIRFLOW_CTX_TASK_ID='appeler_api' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T12:25:36.883551+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-18T12:25:36.883551+00:00'
+[2026-08-18T12:25:42.477+0000] {logging_mixin.py:188} INFO - API ✓ — 5 enregistrements récupérés
+[2026-08-18T12:25:42.478+0000] {python.py:201} INFO - Done. Returned value was: {'path': '/tmp/inbox_j7/api_2026-08-18.csv', 'source': 'API_REST', 'nb': 5}
+[2026-08-18T12:25:42.509+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour7_sources_externes, task_id=appeler_api, execution_date=20260818T122536, start_date=20260818T122541, end_date=20260818T122542
+[2026-08-18T12:25:42.586+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-18T12:25:42.633+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

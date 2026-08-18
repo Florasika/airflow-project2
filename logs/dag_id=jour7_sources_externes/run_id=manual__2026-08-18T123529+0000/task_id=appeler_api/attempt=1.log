@@ -1,0 +1,15 @@
+[2026-08-18T12:35:32.195+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:35:29+00:00 [queued]>
+[2026-08-18T12:35:32.209+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:35:29+00:00 [queued]>
+[2026-08-18T12:35:32.210+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-08-18T12:35:32.403+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): appeler_api> on 2026-08-18 12:35:29+00:00
+[2026-08-18T12:35:32.413+0000] {standard_task_runner.py:60} INFO - Started process 690 to run task
+[2026-08-18T12:35:32.419+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour7_sources_externes', 'appeler_api', 'manual__2026-08-18T12:35:29+00:00', '--job-id', '506', '--raw', '--subdir', 'DAGS_FOLDER/dag_sources_externes.py', '--cfg-path', '/tmp/tmpnuxt5o6y']
+[2026-08-18T12:35:32.422+0000] {standard_task_runner.py:88} INFO - Job 506: Subtask appeler_api
+[2026-08-18T12:35:32.665+0000] {task_command.py:423} INFO - Running <TaskInstance: jour7_sources_externes.appeler_api manual__2026-08-18T12:35:29+00:00 [running]> on host 62af633ee778
+[2026-08-18T12:35:33.016+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour7_sources_externes' AIRFLOW_CTX_TASK_ID='appeler_api' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T12:35:29+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-18T12:35:29+00:00'
+[2026-08-18T12:35:33.071+0000] {logging_mixin.py:188} INFO - Erreur réseau : <urlopen error [Errno -2] Name or service not known> — utilisation du fallback
+[2026-08-18T12:35:33.083+0000] {logging_mixin.py:188} INFO - Fallback activé — 3 lignes générées localement
+[2026-08-18T12:35:33.084+0000] {python.py:201} INFO - Done. Returned value was: {'path': '/tmp/inbox_j7/api_fallback_2026-08-18.csv', 'source': 'FALLBACK', 'nb': 3}
+[2026-08-18T12:35:33.153+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour7_sources_externes, task_id=appeler_api, execution_date=20260818T123529, start_date=20260818T123532, end_date=20260818T123533
+[2026-08-18T12:35:33.234+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-18T12:35:33.353+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

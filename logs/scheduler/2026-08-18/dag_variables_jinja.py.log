@@ -1,0 +1,350 @@
+[2026-08-18T12:17:56.522+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:17:56.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:17:56.528+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:17:56.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:17:58.878+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:17:59.482+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:17:59.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:17:59.518+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:17:59.517+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-17 00:00:00+00:00, run_after=2026-08-18 00:00:00+00:00
+[2026-08-18T12:17:59.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 3.051 seconds
+[2026-08-18T12:18:35.313+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:18:35.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:18:35.328+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:18:35.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:18:36.831+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:18:36.984+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:18:36.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:18:37.058+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:18:37.057+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:18:37.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 1.823 seconds
+[2026-08-18T12:19:07.929+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:07.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:19:07.937+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:07.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:08.567+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:08.621+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:08.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:19:08.654+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:08.654+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:19:08.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.760 seconds
+[2026-08-18T12:19:39.195+0000] {processor.py:161} INFO - Started process (PID=369) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:39.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:19:39.199+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:39.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:39.632+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:19:39.728+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:39.728+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:19:39.748+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:19:39.748+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:19:39.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.580 seconds
+[2026-08-18T12:20:10.004+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:10.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:20:10.010+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:10.009+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:10.500+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:10.544+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:10.544+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:20:10.569+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:10.569+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:20:10.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.592 seconds
+[2026-08-18T12:20:41.286+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:41.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:20:41.290+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:41.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:41.770+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:20:41.805+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:41.805+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:20:41.830+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:20:41.830+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:20:41.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.570 seconds
+[2026-08-18T12:21:12.624+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:12.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:21:12.628+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:12.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:13.080+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:13.110+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:13.109+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:21:13.130+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:13.130+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:21:13.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.532 seconds
+[2026-08-18T12:21:44.003+0000] {processor.py:161} INFO - Started process (PID=689) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:44.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:21:44.008+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:44.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:44.462+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:21:44.494+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:44.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:21:44.514+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:21:44.514+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:21:44.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.537 seconds
+[2026-08-18T12:22:15.463+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:15.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:22:15.466+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:15.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:15.889+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:15.919+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:15.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:22:15.939+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:15.939+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:22:15.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.499 seconds
+[2026-08-18T12:22:46.517+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:46.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:22:46.521+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:46.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:47.087+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:22:47.140+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:47.139+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:22:47.174+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:22:47.174+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:22:47.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.688 seconds
+[2026-08-18T12:23:18.067+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:18.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:23:18.071+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:18.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:18.570+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:18.583+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:18.583+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:23:18.606+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:18.606+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:23:18.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.567 seconds
+[2026-08-18T12:23:48.931+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:48.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:23:48.937+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:48.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:49.432+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:23:49.542+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:49.542+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:23:49.563+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:23:49.563+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:23:49.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.659 seconds
+[2026-08-18T12:24:19.674+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:19.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:24:19.677+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:19.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:20.077+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:20.118+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:20.117+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:24:20.146+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:20.146+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:24:20.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.516 seconds
+[2026-08-18T12:24:50.847+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:50.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:24:50.851+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:50.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:51.290+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:24:51.324+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:51.324+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:24:51.346+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:24:51.346+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:24:51.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.524 seconds
+[2026-08-18T12:25:21.839+0000] {processor.py:161} INFO - Started process (PID=1253) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:21.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:25:21.842+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:21.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:22.301+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:22.338+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:22.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:25:22.362+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:22.361+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:25:22.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.550 seconds
+[2026-08-18T12:25:52.856+0000] {processor.py:161} INFO - Started process (PID=1354) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:52.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:25:52.862+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:52.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:53.455+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:25:53.490+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:53.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:25:53.510+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:25:53.510+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:25:53.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.680 seconds
+[2026-08-18T12:26:23.843+0000] {processor.py:161} INFO - Started process (PID=1435) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:23.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:26:23.846+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:23.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:24.249+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:24.287+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:24.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:26:24.313+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:24.312+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:26:24.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.502 seconds
+[2026-08-18T12:26:54.692+0000] {processor.py:161} INFO - Started process (PID=1521) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:54.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:26:54.695+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:54.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:55.142+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:26:55.176+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:55.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:26:55.200+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:26:55.199+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:26:55.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.533 seconds
+[2026-08-18T12:27:25.918+0000] {processor.py:161} INFO - Started process (PID=1602) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:25.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:27:25.922+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:25.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:26.172+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:26.205+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:26.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:27:26.228+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:26.227+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:27:26.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.336 seconds
+[2026-08-18T12:27:56.642+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:56.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:27:56.648+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:56.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:56.924+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:27:56.962+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:56.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:27:56.987+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:27:56.987+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:27:57.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.372 seconds
+[2026-08-18T12:28:27.326+0000] {processor.py:161} INFO - Started process (PID=1769) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:27.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:28:27.330+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:27.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:27.627+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:27.664+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:27.664+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:28:27.693+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:27.693+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:28:27.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.397 seconds
+[2026-08-18T12:28:58.530+0000] {processor.py:161} INFO - Started process (PID=1850) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:58.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:28:58.533+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:58.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:58.788+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:28:58.820+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:58.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:28:58.841+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:28:58.840+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:28:58.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.336 seconds
+[2026-08-18T12:29:29.521+0000] {processor.py:161} INFO - Started process (PID=1931) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:29:29.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:29:29.526+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:29:29.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:29:29.772+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:29:29.808+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:29:29.807+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:29:29.830+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:29:29.829+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:29:29.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.333 seconds
+[2026-08-18T12:30:00.082+0000] {processor.py:161} INFO - Started process (PID=2012) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:00.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:30:00.085+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:00.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:00.411+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:00.471+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:00.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:30:00.519+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:00.519+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:30:00.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.479 seconds
+[2026-08-18T12:30:30.766+0000] {processor.py:161} INFO - Started process (PID=2093) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:30.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:30:30.770+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:30.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:31.082+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:30:31.116+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:31.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:30:31.138+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:30:31.138+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:30:31.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.402 seconds
+[2026-08-18T12:31:02.143+0000] {processor.py:161} INFO - Started process (PID=2174) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:02.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:31:02.148+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:02.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:02.414+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:02.453+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:02.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:31:02.476+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:02.476+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:31:02.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.357 seconds
+[2026-08-18T12:31:33.145+0000] {processor.py:161} INFO - Started process (PID=2261) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:33.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:31:33.149+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:33.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:33.621+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:31:33.683+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:33.683+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:31:33.733+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:31:33.733+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:31:33.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.639 seconds
+[2026-08-18T12:32:04.198+0000] {processor.py:161} INFO - Started process (PID=2342) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:04.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:32:04.201+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:04.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:04.474+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:04.509+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:04.509+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:32:04.537+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:04.536+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:32:04.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.365 seconds
+[2026-08-18T12:32:35.338+0000] {processor.py:161} INFO - Started process (PID=2425) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:35.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:32:35.341+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:35.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:35.644+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:32:35.679+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:35.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:32:35.705+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:32:35.704+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:32:35.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.394 seconds
+[2026-08-18T12:33:06.068+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:06.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:33:06.072+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:06.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:06.411+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:06.451+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:06.450+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:33:06.482+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:06.482+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:33:06.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.532 seconds
+[2026-08-18T12:33:36.833+0000] {processor.py:161} INFO - Started process (PID=2606) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:36.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:33:36.836+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:36.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:37.087+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:33:37.124+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:37.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:33:37.146+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:33:37.146+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:33:37.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.336 seconds
+[2026-08-18T12:34:07.481+0000] {processor.py:161} INFO - Started process (PID=2696) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:07.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:34:07.485+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:07.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:07.762+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:07.863+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:07.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:34:07.882+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:07.881+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:34:07.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.426 seconds
+[2026-08-18T12:34:38.151+0000] {processor.py:161} INFO - Started process (PID=2786) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:38.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:34:38.155+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:38.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:38.431+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:34:38.464+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:38.463+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:34:38.486+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:34:38.486+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:34:38.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.401 seconds
+[2026-08-18T12:35:09.154+0000] {processor.py:161} INFO - Started process (PID=2872) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:09.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:35:09.158+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:09.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:09.548+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:09.595+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:09.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:35:09.625+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:09.625+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:35:09.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.537 seconds
+[2026-08-18T12:35:40.260+0000] {processor.py:161} INFO - Started process (PID=2966) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:40.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:35:40.264+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:40.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:40.522+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:35:40.556+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:40.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:35:40.578+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:35:40.578+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:35:40.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.385 seconds
+[2026-08-18T12:36:10.867+0000] {processor.py:161} INFO - Started process (PID=3047) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:10.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:36:10.870+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:10.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:11.122+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:11.157+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:11.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:36:11.179+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:11.178+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:36:11.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.371 seconds
+[2026-08-18T12:36:41.845+0000] {processor.py:161} INFO - Started process (PID=3133) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:41.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:36:41.848+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:41.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:42.277+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:36:42.335+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:42.334+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:36:42.366+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:36:42.365+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:36:42.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.624 seconds
+[2026-08-18T12:37:13.146+0000] {processor.py:161} INFO - Started process (PID=3214) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:13.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:37:13.149+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:13.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:13.402+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:13.438+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:13.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:37:13.461+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:13.461+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:37:13.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.342 seconds
+[2026-08-18T12:37:44.443+0000] {processor.py:161} INFO - Started process (PID=3295) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:44.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:37:44.447+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:44.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:44.721+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:37:44.758+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:44.758+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:37:44.783+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:37:44.783+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:37:44.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.367 seconds
+[2026-08-18T12:38:15.398+0000] {processor.py:161} INFO - Started process (PID=3376) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:15.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:38:15.414+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:15.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:16.281+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:16.376+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:16.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:38:16.689+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:16.688+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:38:16.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 1.339 seconds
+[2026-08-18T12:38:47.270+0000] {processor.py:161} INFO - Started process (PID=3459) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:47.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:38:47.276+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:47.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:47.522+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:38:47.553+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:47.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:38:47.695+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:38:47.695+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:38:47.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.447 seconds
+[2026-08-18T12:39:17.913+0000] {processor.py:161} INFO - Started process (PID=3549) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:17.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:39:17.919+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:17.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:18.553+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:18.597+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:18.597+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:39:18.628+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:18.628+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:39:18.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.748 seconds
+[2026-08-18T12:39:48.820+0000] {processor.py:161} INFO - Started process (PID=3628) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:48.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:39:48.823+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:48.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:49.283+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:39:49.318+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:49.317+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:39:49.341+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:39:49.340+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:39:49.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.548 seconds
+[2026-08-18T12:40:19.657+0000] {processor.py:161} INFO - Started process (PID=3709) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:19.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:40:19.660+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:19.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:20.059+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:20.091+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:20.090+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:40:20.112+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:20.112+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:40:20.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.478 seconds
+[2026-08-18T12:40:50.307+0000] {processor.py:161} INFO - Started process (PID=3790) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:50.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:40:50.311+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:50.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:50.770+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:40:50.818+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:50.818+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:40:50.840+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:40:50.840+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:40:50.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.559 seconds
+[2026-08-18T12:41:21.317+0000] {processor.py:161} INFO - Started process (PID=3871) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:21.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:41:21.320+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:21.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:21.782+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:21.815+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:21.815+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:41:21.839+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:21.838+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:41:21.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.549 seconds
+[2026-08-18T12:41:52.195+0000] {processor.py:161} INFO - Started process (PID=3952) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:52.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:41:52.201+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:52.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:52.665+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:41:52.703+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:52.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:41:52.725+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:41:52.725+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:41:52.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.560 seconds
+[2026-08-18T12:42:23.211+0000] {processor.py:161} INFO - Started process (PID=4033) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:23.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:42:23.217+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:23.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:23.885+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:23.930+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:23.929+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:42:23.961+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:23.961+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:42:23.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.785 seconds
+[2026-08-18T12:42:54.219+0000] {processor.py:161} INFO - Started process (PID=4114) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:54.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:42:54.225+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:54.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:54.932+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:42:54.990+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:54.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:42:55.040+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:42:55.039+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:42:55.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.859 seconds
+[2026-08-18T12:43:25.817+0000] {processor.py:161} INFO - Started process (PID=4195) to work on /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:43:25.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_variables_jinja.py for tasks to queue
+[2026-08-18T12:43:25.821+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:43:25.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:43:26.295+0000] {processor.py:840} INFO - DAG(s) 'jour6_variables_jinja' retrieved from /opt/airflow/dags/dag_variables_jinja.py
+[2026-08-18T12:43:26.329+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:43:26.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-18T12:43:26.352+0000] {logging_mixin.py:188} INFO - [2026-08-18T12:43:26.352+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_variables_jinja to 2026-08-18 00:00:00+00:00, run_after=2026-08-19 00:00:00+00:00
+[2026-08-18T12:43:26.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_variables_jinja.py took 0.564 seconds

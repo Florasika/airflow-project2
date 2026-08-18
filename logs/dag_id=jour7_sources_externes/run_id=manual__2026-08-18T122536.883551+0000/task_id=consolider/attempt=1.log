@@ -1,0 +1,19 @@
+[2026-08-18T12:29:38.417+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour7_sources_externes.consolider manual__2026-08-18T12:25:36.883551+00:00 [queued]>
+[2026-08-18T12:29:38.429+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour7_sources_externes.consolider manual__2026-08-18T12:25:36.883551+00:00 [queued]>
+[2026-08-18T12:29:38.430+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-08-18T12:29:38.446+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): consolider> on 2026-08-18 12:25:36.883551+00:00
+[2026-08-18T12:29:38.452+0000] {standard_task_runner.py:60} INFO - Started process 498 to run task
+[2026-08-18T12:29:38.456+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour7_sources_externes', 'consolider', 'manual__2026-08-18T12:25:36.883551+00:00', '--job-id', '474', '--raw', '--subdir', 'DAGS_FOLDER/dag_sources_externes.py', '--cfg-path', '/tmp/tmpgww91p3k']
+[2026-08-18T12:29:38.458+0000] {standard_task_runner.py:88} INFO - Job 474: Subtask consolider
+[2026-08-18T12:29:38.516+0000] {task_command.py:423} INFO - Running <TaskInstance: jour7_sources_externes.consolider manual__2026-08-18T12:25:36.883551+00:00 [running]> on host 62af633ee778
+[2026-08-18T12:29:38.603+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour7_sources_externes' AIRFLOW_CTX_TASK_ID='consolider' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T12:25:36.883551+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-18T12:25:36.883551+00:00'
+[2026-08-18T12:29:38.617+0000] {logging_mixin.py:188} INFO - 
+=== Rapport Consolidé 2026-08-18 ===
+[2026-08-18T12:29:38.618+0000] {logging_mixin.py:188} INFO - Source API      : 5 lignes
+[2026-08-18T12:29:38.618+0000] {logging_mixin.py:188} INFO - Source Fichiers : 5 lignes
+[2026-08-18T12:29:38.618+0000] {logging_mixin.py:188} INFO - Total consolidé : 6 lignes
+[2026-08-18T12:29:38.619+0000] {logging_mixin.py:188} INFO - CA Total (API)  : 15550€
+[2026-08-18T12:29:38.620+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-18T12:29:38.629+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour7_sources_externes, task_id=consolider, execution_date=20260818T122536, start_date=20260818T122938, end_date=20260818T122938
+[2026-08-18T12:29:38.669+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-18T12:29:38.684+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
