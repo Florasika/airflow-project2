@@ -1,0 +1,37 @@
+[2026-08-19T12:39:26.978+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour8_monitoring.charger_avec_metriques manual__2026-08-19T12:36:18+00:00 [queued]>
+[2026-08-19T12:39:26.986+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour8_monitoring.charger_avec_metriques manual__2026-08-19T12:36:18+00:00 [queued]>
+[2026-08-19T12:39:26.987+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2026-08-19T12:39:27.001+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): charger_avec_metriques> on 2026-08-19 12:36:18+00:00
+[2026-08-19T12:39:27.010+0000] {standard_task_runner.py:60} INFO - Started process 657 to run task
+[2026-08-19T12:39:27.014+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour8_monitoring', 'charger_avec_metriques', 'manual__2026-08-19T12:36:18+00:00', '--job-id', '624', '--raw', '--subdir', 'DAGS_FOLDER/dag_monitoring.py', '--cfg-path', '/tmp/tmpulp3kwyj']
+[2026-08-19T12:39:27.015+0000] {standard_task_runner.py:88} INFO - Job 624: Subtask charger_avec_metriques
+[2026-08-19T12:39:27.081+0000] {task_command.py:423} INFO - Running <TaskInstance: jour8_monitoring.charger_avec_metriques manual__2026-08-19T12:36:18+00:00 [running]> on host fef4fac2f01e
+[2026-08-19T12:39:27.160+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour8_monitoring' AIRFLOW_CTX_TASK_ID='charger_avec_metriques' AIRFLOW_CTX_EXECUTION_DATE='2026-08-19T12:36:18+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-19T12:36:18+00:00'
+[2026-08-19T12:39:27.171+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_monitoring.py", line 252, in charger_avec_metriques
+    df.to_sql('ventes', conn, if_exists='append', index=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 2878, in to_sql
+    return sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 769, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 2379, in to_sql
+    return table.insert(chunksize, method)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1023, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 2075, in _execute_insert
+    conn.executemany(self.insert_statement(num_rows=1), data_list)
+sqlite3.OperationalError: table ventes has no column named marge
+[2026-08-19T12:39:27.183+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jour8_monitoring, task_id=charger_avec_metriques, execution_date=20260819T123618, start_date=20260819T123926, end_date=20260819T123927
+[2026-08-19T12:39:27.184+0000] {logging_mixin.py:188} INFO - [RETRY] Task charger_avec_metriques — Tentative 3 — 2026-08-19
+[2026-08-19T12:39:27.199+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 624 for task charger_avec_metriques (table ventes has no column named marge; 657)
+[2026-08-19T12:39:27.227+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-19T12:39:27.249+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

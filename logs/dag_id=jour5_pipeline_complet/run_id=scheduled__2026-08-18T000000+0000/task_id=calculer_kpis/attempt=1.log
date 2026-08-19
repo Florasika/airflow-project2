@@ -1,0 +1,22 @@
+[2026-08-19T12:22:41.121+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour5_pipeline_complet.calculer_kpis scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:41.240+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour5_pipeline_complet.calculer_kpis scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:41.242+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-19T12:22:41.667+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): calculer_kpis> on 2026-08-18 00:00:00+00:00
+[2026-08-19T12:22:41.768+0000] {standard_task_runner.py:60} INFO - Started process 223 to run task
+[2026-08-19T12:22:41.820+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour5_pipeline_complet', 'calculer_kpis', 'scheduled__2026-08-18T00:00:00+00:00', '--job-id', '570', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline_complet.py', '--cfg-path', '/tmp/tmpm8eu_c0q']
+[2026-08-19T12:22:41.848+0000] {standard_task_runner.py:88} INFO - Job 570: Subtask calculer_kpis
+[2026-08-19T12:22:42.142+0000] {task_command.py:423} INFO - Running <TaskInstance: jour5_pipeline_complet.calculer_kpis scheduled__2026-08-18T00:00:00+00:00 [running]> on host fef4fac2f01e
+[2026-08-19T12:22:42.722+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour5_pipeline_complet' AIRFLOW_CTX_TASK_ID='calculer_kpis' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-18T00:00:00+00:00'
+[2026-08-19T12:22:42.885+0000] {logging_mixin.py:188} INFO - KPIs calculés pour 2026-08-18 :
+[2026-08-19T12:22:42.901+0000] {logging_mixin.py:188} INFO -   date            : 2026-08-18
+[2026-08-19T12:22:42.906+0000] {logging_mixin.py:188} INFO -   ca_total        : 125790.0
+[2026-08-19T12:22:42.910+0000] {logging_mixin.py:188} INFO -   marge_totale    : 52831.8
+[2026-08-19T12:22:42.911+0000] {logging_mixin.py:188} INFO -   taux_marge      : 42.0
+[2026-08-19T12:22:42.916+0000] {logging_mixin.py:188} INFO -   nb_ventes       : 30
+[2026-08-19T12:22:42.920+0000] {logging_mixin.py:188} INFO -   top_produit     : Laptop Pro
+[2026-08-19T12:22:42.931+0000] {logging_mixin.py:188} INFO -   top_vendeur     : Thomas
+[2026-08-19T12:22:42.960+0000] {logging_mixin.py:188} INFO -   calcule_le      : 2026-08-19T12:22:42.731345
+[2026-08-19T12:22:42.967+0000] {python.py:201} INFO - Done. Returned value was: {'date': '2026-08-18', 'ca_total': 125790.0, 'marge_totale': 52831.8, 'taux_marge': 42.0, 'nb_ventes': 30, 'top_produit': 'Laptop Pro', 'top_vendeur': 'Thomas', 'calcule_le': '2026-08-19T12:22:42.731345'}
+[2026-08-19T12:22:43.134+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour5_pipeline_complet, task_id=calculer_kpis, execution_date=20260818T000000, start_date=20260819T122241, end_date=20260819T122243
+[2026-08-19T12:22:43.244+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-19T12:22:43.342+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

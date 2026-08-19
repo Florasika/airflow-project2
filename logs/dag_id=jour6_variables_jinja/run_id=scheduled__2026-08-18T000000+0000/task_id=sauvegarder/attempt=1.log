@@ -1,0 +1,14 @@
+[2026-08-19T12:22:30.460+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour6_variables_jinja.sauvegarder scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:30.668+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour6_variables_jinja.sauvegarder scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:30.680+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-19T12:22:30.862+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): sauvegarder> on 2026-08-18 00:00:00+00:00
+[2026-08-19T12:22:30.923+0000] {standard_task_runner.py:60} INFO - Started process 197 to run task
+[2026-08-19T12:22:30.974+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour6_variables_jinja', 'sauvegarder', 'scheduled__2026-08-18T00:00:00+00:00', '--job-id', '556', '--raw', '--subdir', 'DAGS_FOLDER/dag_variables_jinja.py', '--cfg-path', '/tmp/tmp8j9z4eq1']
+[2026-08-19T12:22:30.988+0000] {standard_task_runner.py:88} INFO - Job 556: Subtask sauvegarder
+[2026-08-19T12:22:31.513+0000] {task_command.py:423} INFO - Running <TaskInstance: jour6_variables_jinja.sauvegarder scheduled__2026-08-18T00:00:00+00:00 [running]> on host fef4fac2f01e
+[2026-08-19T12:22:32.404+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour6_variables_jinja' AIRFLOW_CTX_TASK_ID='sauvegarder' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-18T00:00:00+00:00'
+[2026-08-19T12:22:32.604+0000] {logging_mixin.py:188} INFO - Sauvegardé : 25 lignes dans /tmp/entrepot_j6.db
+[2026-08-19T12:22:32.608+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-19T12:22:32.651+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour6_variables_jinja, task_id=sauvegarder, execution_date=20260818T000000, start_date=20260819T122230, end_date=20260819T122232
+[2026-08-19T12:22:32.758+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-19T12:22:32.888+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

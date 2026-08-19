@@ -1,0 +1,14 @@
+[2026-08-19T12:22:25.385+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour3_connections_hooks.extraire_donnees scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:25.536+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour3_connections_hooks.extraire_donnees scheduled__2026-08-18T00:00:00+00:00 [queued]>
+[2026-08-19T12:22:25.558+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-19T12:22:25.666+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extraire_donnees> on 2026-08-18 00:00:00+00:00
+[2026-08-19T12:22:25.778+0000] {standard_task_runner.py:60} INFO - Started process 187 to run task
+[2026-08-19T12:22:25.789+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour3_connections_hooks', 'extraire_donnees', 'scheduled__2026-08-18T00:00:00+00:00', '--job-id', '551', '--raw', '--subdir', 'DAGS_FOLDER/dag_connections_hooks.py', '--cfg-path', '/tmp/tmpqwp2syfd']
+[2026-08-19T12:22:25.811+0000] {standard_task_runner.py:88} INFO - Job 551: Subtask extraire_donnees
+[2026-08-19T12:22:26.115+0000] {task_command.py:423} INFO - Running <TaskInstance: jour3_connections_hooks.extraire_donnees scheduled__2026-08-18T00:00:00+00:00 [running]> on host fef4fac2f01e
+[2026-08-19T12:22:26.429+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour3_connections_hooks' AIRFLOW_CTX_TASK_ID='extraire_donnees' AIRFLOW_CTX_EXECUTION_DATE='2026-08-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-18T00:00:00+00:00'
+[2026-08-19T12:22:26.475+0000] {logging_mixin.py:188} INFO - Extrait 25 lignes — CA: 65710€
+[2026-08-19T12:22:26.480+0000] {python.py:201} INFO - Done. Returned value was: /tmp/raw_2026-08-18.csv
+[2026-08-19T12:22:26.599+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour3_connections_hooks, task_id=extraire_donnees, execution_date=20260818T000000, start_date=20260819T122225, end_date=20260819T122226
+[2026-08-19T12:22:26.858+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-19T12:22:27.413+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
