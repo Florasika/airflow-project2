@@ -1,0 +1,16 @@
+[2026-08-20T12:25:06.134+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour1_hello_world.verifier_fichier scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:25:06.228+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour1_hello_world.verifier_fichier scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:25:06.231+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-20T12:25:06.309+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): verifier_fichier> on 2026-08-19 00:00:00+00:00
+[2026-08-20T12:25:06.324+0000] {standard_task_runner.py:60} INFO - Started process 241 to run task
+[2026-08-20T12:25:06.335+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour1_hello_world', 'verifier_fichier', 'scheduled__2026-08-19T00:00:00+00:00', '--job-id', '699', '--raw', '--subdir', 'DAGS_FOLDER/dag_hello_world.py', '--cfg-path', '/tmp/tmpiigmidgj']
+[2026-08-20T12:25:06.343+0000] {standard_task_runner.py:88} INFO - Job 699: Subtask verifier_fichier
+[2026-08-20T12:25:06.584+0000] {task_command.py:423} INFO - Running <TaskInstance: jour1_hello_world.verifier_fichier scheduled__2026-08-19T00:00:00+00:00 [running]> on host 69180f31ab0f
+[2026-08-20T12:25:06.924+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour1_hello_world' AIRFLOW_CTX_TASK_ID='verifier_fichier' AIRFLOW_CTX_EXECUTION_DATE='2026-08-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-19T00:00:00+00:00'
+[2026-08-20T12:25:06.973+0000] {logging_mixin.py:188} INFO - ✓ Fichier trouvé : /tmp/ventes_2026-08-19.csv
+[2026-08-20T12:25:06.984+0000] {logging_mixin.py:188} INFO - ✓ Lignes        : 3
+[2026-08-20T12:25:06.987+0000] {logging_mixin.py:188} INFO - ✓ CA Total      : 15150€
+[2026-08-20T12:25:06.991+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-20T12:25:07.027+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour1_hello_world, task_id=verifier_fichier, execution_date=20260819T000000, start_date=20260820T122506, end_date=20260820T122507
+[2026-08-20T12:25:07.112+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-20T12:25:07.197+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

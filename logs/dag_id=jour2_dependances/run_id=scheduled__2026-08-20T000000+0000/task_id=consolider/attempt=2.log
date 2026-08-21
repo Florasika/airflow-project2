@@ -1,0 +1,24 @@
+[2026-08-21T11:47:07.997+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour2_dependances.consolider scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:47:08.010+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour2_dependances.consolider scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:47:08.013+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-08-21T11:47:08.029+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): consolider> on 2026-08-20 00:00:00+00:00
+[2026-08-21T11:47:08.036+0000] {standard_task_runner.py:60} INFO - Started process 351 to run task
+[2026-08-21T11:47:08.041+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour2_dependances', 'consolider', 'scheduled__2026-08-20T00:00:00+00:00', '--job-id', '802', '--raw', '--subdir', 'DAGS_FOLDER/dag_dependencies.py', '--cfg-path', '/tmp/tmprf7mj4le']
+[2026-08-21T11:47:08.043+0000] {standard_task_runner.py:88} INFO - Job 802: Subtask consolider
+[2026-08-21T11:47:08.123+0000] {task_command.py:423} INFO - Running <TaskInstance: jour2_dependances.consolider scheduled__2026-08-20T00:00:00+00:00 [running]> on host 555765e05379
+[2026-08-21T11:47:08.201+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour2_dependances' AIRFLOW_CTX_TASK_ID='consolider' AIRFLOW_CTX_EXECUTION_DATE='2026-08-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-20T00:00:00+00:00'
+[2026-08-21T11:47:08.227+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_dependencies.py", line 93, in consolider
+    raise ValueError("Aucune donnée à consolider")
+ValueError: Aucune donnée à consolider
+[2026-08-21T11:47:08.243+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=jour2_dependances, task_id=consolider, execution_date=20260820T000000, start_date=20260821T114707, end_date=20260821T114708
+[2026-08-21T11:47:08.256+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 802 for task consolider (Aucune donnée à consolider; 351)
+[2026-08-21T11:47:08.294+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-21T11:47:08.316+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

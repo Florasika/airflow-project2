@@ -1,0 +1,18 @@
+[2026-08-20T12:24:59.459+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour2_branch_operator.choisir_traitement scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:24:59.526+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour2_branch_operator.choisir_traitement scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:24:59.527+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-20T12:24:59.565+0000] {taskinstance.py:2191} INFO - Executing <Task(BranchPythonOperator): choisir_traitement> on 2026-08-19 00:00:00+00:00
+[2026-08-20T12:24:59.593+0000] {standard_task_runner.py:60} INFO - Started process 217 to run task
+[2026-08-20T12:24:59.666+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour2_branch_operator', 'choisir_traitement', 'scheduled__2026-08-19T00:00:00+00:00', '--job-id', '690', '--raw', '--subdir', 'DAGS_FOLDER/dag_branch_operator.py', '--cfg-path', '/tmp/tmpi_fusmgv']
+[2026-08-20T12:24:59.691+0000] {standard_task_runner.py:88} INFO - Job 690: Subtask choisir_traitement
+[2026-08-20T12:25:00.031+0000] {task_command.py:423} INFO - Running <TaskInstance: jour2_branch_operator.choisir_traitement scheduled__2026-08-19T00:00:00+00:00 [running]> on host 69180f31ab0f
+[2026-08-20T12:25:00.591+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour2_branch_operator' AIRFLOW_CTX_TASK_ID='choisir_traitement' AIRFLOW_CTX_EXECUTION_DATE='2026-08-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-19T00:00:00+00:00'
+[2026-08-20T12:25:00.684+0000] {logging_mixin.py:188} INFO - CA Total reçu : 59060€
+[2026-08-20T12:25:00.691+0000] {logging_mixin.py:188} INFO - → Branche : traitement_gros_volume
+[2026-08-20T12:25:00.694+0000] {python.py:201} INFO - Done. Returned value was: traitement_gros_volume
+[2026-08-20T12:25:00.699+0000] {branch.py:35} INFO - Branch into traitement_gros_volume
+[2026-08-20T12:25:00.709+0000] {skipmixin.py:178} INFO - Following branch traitement_gros_volume
+[2026-08-20T12:25:00.851+0000] {skipmixin.py:244} INFO - Skipping tasks [('traitement_faible_volume', -1), ('traitement_volume_moyen', -1)]
+[2026-08-20T12:25:01.040+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour2_branch_operator, task_id=choisir_traitement, execution_date=20260819T000000, start_date=20260820T122459, end_date=20260820T122501
+[2026-08-20T12:25:01.126+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-20T12:25:01.218+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

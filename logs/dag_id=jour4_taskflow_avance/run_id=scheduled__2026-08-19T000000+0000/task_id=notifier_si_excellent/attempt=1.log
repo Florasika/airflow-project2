@@ -1,0 +1,14 @@
+[2026-08-20T12:26:40.942+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour4_taskflow_avance.notifier_si_excellent scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:26:40.953+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour4_taskflow_avance.notifier_si_excellent scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:26:40.954+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-20T12:26:41.535+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): notifier_si_excellent> on 2026-08-19 00:00:00+00:00
+[2026-08-20T12:26:41.552+0000] {standard_task_runner.py:60} INFO - Started process 300 to run task
+[2026-08-20T12:26:41.557+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour4_taskflow_avance', 'notifier_si_excellent', 'scheduled__2026-08-19T00:00:00+00:00', '--job-id', '713', '--raw', '--subdir', 'DAGS_FOLDER/dag_taskflow_avance.py', '--cfg-path', '/tmp/tmpkoo9dw_o']
+[2026-08-20T12:26:41.559+0000] {standard_task_runner.py:88} INFO - Job 713: Subtask notifier_si_excellent
+[2026-08-20T12:26:42.221+0000] {task_command.py:423} INFO - Running <TaskInstance: jour4_taskflow_avance.notifier_si_excellent scheduled__2026-08-19T00:00:00+00:00 [running]> on host 69180f31ab0f
+[2026-08-20T12:26:43.959+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour4_taskflow_avance' AIRFLOW_CTX_TASK_ID='notifier_si_excellent' AIRFLOW_CTX_EXECUTION_DATE='2026-08-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-19T00:00:00+00:00'
+[2026-08-20T12:26:43.983+0000] {logging_mixin.py:188} INFO - 🚀 EXCELLENT ! CA = 81613€ — Notification envoyée à la direction
+[2026-08-20T12:26:43.985+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-20T12:26:44.005+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour4_taskflow_avance, task_id=notifier_si_excellent, execution_date=20260819T000000, start_date=20260820T122640, end_date=20260820T122644
+[2026-08-20T12:26:44.102+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-20T12:26:44.149+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

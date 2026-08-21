@@ -1,0 +1,14 @@
+[2026-08-21T12:05:16.061+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour10_pipeline_final.extraction.extraire_source_principale manual__2026-08-21T11:55:36+00:00 [queued]>
+[2026-08-21T12:05:16.078+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour10_pipeline_final.extraction.extraire_source_principale manual__2026-08-21T11:55:36+00:00 [queued]>
+[2026-08-21T12:05:16.079+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-21T12:05:16.105+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraction.extraire_source_principale> on 2026-08-21 11:55:36+00:00
+[2026-08-21T12:05:16.122+0000] {standard_task_runner.py:60} INFO - Started process 713 to run task
+[2026-08-21T12:05:16.130+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour10_pipeline_final', 'extraction.extraire_source_principale', 'manual__2026-08-21T11:55:36+00:00', '--job-id', '820', '--raw', '--subdir', 'DAGS_FOLDER/dag_final_etl.py', '--cfg-path', '/tmp/tmp84b_mg33']
+[2026-08-21T12:05:16.132+0000] {standard_task_runner.py:88} INFO - Job 820: Subtask extraction.extraire_source_principale
+[2026-08-21T12:05:16.232+0000] {task_command.py:423} INFO - Running <TaskInstance: jour10_pipeline_final.extraction.extraire_source_principale manual__2026-08-21T11:55:36+00:00 [running]> on host 555765e05379
+[2026-08-21T12:05:16.383+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour10_pipeline_final' AIRFLOW_CTX_TASK_ID='extraction.extraire_source_principale' AIRFLOW_CTX_EXECUTION_DATE='2026-08-21T11:55:36+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-21T11:55:36+00:00'
+[2026-08-21T12:05:16.404+0000] {logging_mixin.py:188} INFO - Source principale : 27 lignes — 0.02s
+[2026-08-21T12:05:16.405+0000] {python.py:201} INFO - Done. Returned value was: {'path': '/tmp/inbox_j10/source_principale_2026-08-21.csv', 'nb': 27, 'duree': 0.02}
+[2026-08-21T12:05:16.451+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour10_pipeline_final, task_id=extraction.extraire_source_principale, execution_date=20260821T115536, start_date=20260821T120516, end_date=20260821T120516
+[2026-08-21T12:05:16.512+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-21T12:05:16.557+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

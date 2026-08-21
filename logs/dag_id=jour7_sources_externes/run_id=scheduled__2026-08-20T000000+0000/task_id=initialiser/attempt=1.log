@@ -1,0 +1,14 @@
+[2026-08-21T11:42:44.744+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour7_sources_externes.initialiser scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:42:44.785+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour7_sources_externes.initialiser scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:42:44.806+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-08-21T11:42:45.052+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): initialiser> on 2026-08-20 00:00:00+00:00
+[2026-08-21T11:42:45.194+0000] {standard_task_runner.py:60} INFO - Started process 127 to run task
+[2026-08-21T11:42:45.221+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour7_sources_externes', 'initialiser', 'scheduled__2026-08-20T00:00:00+00:00', '--job-id', '741', '--raw', '--subdir', 'DAGS_FOLDER/dag_sources_externes.py', '--cfg-path', '/tmp/tmp_hfa_nnl']
+[2026-08-21T11:42:45.275+0000] {standard_task_runner.py:88} INFO - Job 741: Subtask initialiser
+[2026-08-21T11:42:45.820+0000] {task_command.py:423} INFO - Running <TaskInstance: jour7_sources_externes.initialiser scheduled__2026-08-20T00:00:00+00:00 [running]> on host 555765e05379
+[2026-08-21T11:42:46.882+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour7_sources_externes' AIRFLOW_CTX_TASK_ID='initialiser' AIRFLOW_CTX_EXECUTION_DATE='2026-08-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-20T00:00:00+00:00'
+[2026-08-21T11:42:47.100+0000] {logging_mixin.py:188} INFO - Init OK — inbox: /tmp/inbox_j7 | db: /tmp/multi_sources.db
+[2026-08-21T11:42:47.101+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-08-21T11:42:47.207+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour7_sources_externes, task_id=initialiser, execution_date=20260820T000000, start_date=20260821T114244, end_date=20260821T114247
+[2026-08-21T11:42:47.345+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-21T11:42:47.661+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

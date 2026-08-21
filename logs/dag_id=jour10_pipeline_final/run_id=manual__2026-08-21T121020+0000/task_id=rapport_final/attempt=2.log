@@ -1,0 +1,30 @@
+[2026-08-21T12:26:31.484+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour10_pipeline_final.rapport_final manual__2026-08-21T12:10:20+00:00 [queued]>
+[2026-08-21T12:26:31.493+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour10_pipeline_final.rapport_final manual__2026-08-21T12:10:20+00:00 [queued]>
+[2026-08-21T12:26:31.494+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2026-08-21T12:26:31.508+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): rapport_final> on 2026-08-21 12:10:20+00:00
+[2026-08-21T12:26:31.516+0000] {standard_task_runner.py:60} INFO - Started process 1172 to run task
+[2026-08-21T12:26:31.520+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour10_pipeline_final', 'rapport_final', 'manual__2026-08-21T12:10:20+00:00', '--job-id', '869', '--raw', '--subdir', 'DAGS_FOLDER/dag_final_etl.py', '--cfg-path', '/tmp/tmp7kqvivvg']
+[2026-08-21T12:26:31.522+0000] {standard_task_runner.py:88} INFO - Job 869: Subtask rapport_final
+[2026-08-21T12:26:31.602+0000] {task_command.py:423} INFO - Running <TaskInstance: jour10_pipeline_final.rapport_final manual__2026-08-21T12:10:20+00:00 [running]> on host 555765e05379
+[2026-08-21T12:26:31.706+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour10_pipeline_final' AIRFLOW_CTX_TASK_ID='rapport_final' AIRFLOW_CTX_EXECUTION_DATE='2026-08-21T12:10:20+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-21T12:10:20+00:00'
+[2026-08-21T12:26:31.720+0000] {logging_mixin.py:188} INFO - 
+=== Historique 10 derniers jours ===
+[2026-08-21T12:26:31.720+0000] {logging_mixin.py:188} INFO - 
+✓ Pipeline Jour 10 terminé pour 2026-08-21
+[2026-08-21T12:26:31.721+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_final_etl.py", line 401, in rapport_final
+    print(f"  Statut : {kpis.get('statut','?')}")
+AttributeError: 'NoneType' object has no attribute 'get'
+[2026-08-21T12:26:31.736+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jour10_pipeline_final, task_id=rapport_final, execution_date=20260821T121020, start_date=20260821T122631, end_date=20260821T122631
+[2026-08-21T12:26:31.754+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 869 for task rapport_final ('NoneType' object has no attribute 'get'; 1172)
+[2026-08-21T12:26:31.773+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-08-21T12:26:31.797+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

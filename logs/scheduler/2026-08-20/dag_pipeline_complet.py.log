@@ -1,0 +1,226 @@
+[2026-08-20T12:23:50.554+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:23:50.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:23:50.560+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:50.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:23:54.703+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:23:55.250+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:55.242+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:23:55.337+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:55.336+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-19 00:00:00+00:00, run_after=2026-08-20 00:00:00+00:00
+[2026-08-20T12:23:55.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 4.847 seconds
+[2026-08-20T12:24:58.697+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:24:58.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:24:58.707+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:58.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:25:00.753+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:25:00.899+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:00.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:25:00.984+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:00.984+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:01.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 2.380 seconds
+[2026-08-20T12:25:31.807+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:25:31.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:25:31.812+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:31.811+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:25:32.330+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:25:32.518+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:32.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:25:32.543+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:32.543+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:32.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.772 seconds
+[2026-08-20T12:26:03.387+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:03.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:26:03.391+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:03.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:04.090+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:04.135+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:04.135+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:26:04.159+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:04.159+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:04.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.801 seconds
+[2026-08-20T12:26:34.277+0000] {processor.py:161} INFO - Started process (PID=500) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:34.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:26:34.280+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:34.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:34.702+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:26:34.985+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:34.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:26:35.198+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:35.198+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:35.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 1.580 seconds
+[2026-08-20T12:27:05.929+0000] {processor.py:161} INFO - Started process (PID=590) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:05.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:27:05.933+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:05.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:06.373+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:06.418+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:06.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:27:06.442+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:06.442+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:06.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.548 seconds
+[2026-08-20T12:27:36.712+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:36.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:27:36.716+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:36.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:37.263+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:27:37.306+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:37.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:27:37.330+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:37.329+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:37.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.714 seconds
+[2026-08-20T12:28:08.088+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:08.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:28:08.092+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:08.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:08.515+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:08.551+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:08.550+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:28:08.573+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:08.573+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:08.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.511 seconds
+[2026-08-20T12:28:38.941+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:38.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:28:38.944+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:38.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:39.350+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:28:39.382+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:39.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:28:39.400+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:39.400+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:39.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.535 seconds
+[2026-08-20T12:29:10.207+0000] {processor.py:161} INFO - Started process (PID=935) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:10.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:29:10.211+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:10.210+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:10.596+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:10.630+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:10.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:29:10.649+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:10.649+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:10.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.533 seconds
+[2026-08-20T12:29:41.129+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:41.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:29:41.132+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:41.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:41.388+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:41.435+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:41.435+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:29:41.459+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:41.458+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:41.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.449 seconds
+[2026-08-20T12:29:52.903+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:52.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:29:52.909+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:52.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:53.252+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:29:53.320+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:53.319+0000] {dag.py:1508} INFO - Executing dag callback function: <function on_success_callback at 0x7252d17b7f70>
+[2026-08-20T12:29:53.321+0000] {logging_mixin.py:188} INFO - [OK] DAG jour5_pipeline_complet terminé avec succès pour le 2026-08-19
+[2026-08-20T12:29:53.360+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:53.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:29:53.385+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:53.385+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:53.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.524 seconds
+[2026-08-20T12:30:24.225+0000] {processor.py:161} INFO - Started process (PID=1162) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:24.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:30:24.228+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:24.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:24.471+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:24.508+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:24.507+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:30:24.530+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:24.530+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:24.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.364 seconds
+[2026-08-20T12:30:54.820+0000] {processor.py:161} INFO - Started process (PID=1248) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:54.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:30:54.826+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:54.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:55.130+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:30:55.180+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:55.179+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:30:55.204+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:55.204+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:55.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.458 seconds
+[2026-08-20T12:31:25.615+0000] {processor.py:161} INFO - Started process (PID=1334) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:25.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:31:25.618+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:25.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:25.869+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:25.903+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:25.903+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:31:25.927+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:25.927+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:25.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.373 seconds
+[2026-08-20T12:31:56.534+0000] {processor.py:161} INFO - Started process (PID=1420) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:56.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:31:56.540+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:56.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:56.839+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:31:56.880+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:56.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:31:56.906+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:56.906+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:56.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.420 seconds
+[2026-08-20T12:32:27.258+0000] {processor.py:161} INFO - Started process (PID=1506) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:27.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:32:27.263+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:27.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:27.541+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:27.612+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:27.611+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:32:27.635+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:27.635+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:27.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.401 seconds
+[2026-08-20T12:32:58.223+0000] {processor.py:161} INFO - Started process (PID=1592) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:58.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:32:58.226+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:58.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:58.493+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:32:58.537+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:58.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:32:58.568+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:58.567+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:58.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.387 seconds
+[2026-08-20T12:33:28.718+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:28.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:33:28.723+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:28.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:28.989+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:29.043+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:29.042+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:33:29.069+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:29.069+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:29.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.378 seconds
+[2026-08-20T12:33:59.487+0000] {processor.py:161} INFO - Started process (PID=1765) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:59.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:33:59.492+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:59.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:59.930+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:33:59.991+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:59.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:34:00.036+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:00.036+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:00.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.585 seconds
+[2026-08-20T12:34:30.376+0000] {processor.py:161} INFO - Started process (PID=1851) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:34:30.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:34:30.379+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:30.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:34:30.652+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:34:30.691+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:30.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:34:30.716+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:30.716+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:30.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.363 seconds
+[2026-08-20T12:35:00.827+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:00.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:35:00.830+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:00.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:01.100+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:01.136+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:01.135+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:35:01.157+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:01.157+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:01.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.359 seconds
+[2026-08-20T12:35:31.567+0000] {processor.py:161} INFO - Started process (PID=2023) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:31.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:35:31.573+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:31.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:31.935+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:35:31.984+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:31.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:35:32.012+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:32.012+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:32.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.480 seconds
+[2026-08-20T12:36:02.303+0000] {processor.py:161} INFO - Started process (PID=2109) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:02.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:36:02.306+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:02.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:02.628+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:02.673+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:02.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:36:02.696+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:02.695+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:02.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.418 seconds
+[2026-08-20T12:36:33.211+0000] {processor.py:161} INFO - Started process (PID=2195) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:33.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:36:33.217+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:33.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:33.652+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:36:33.697+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:33.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:36:33.722+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:33.722+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:33.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.710 seconds
+[2026-08-20T12:37:04.228+0000] {processor.py:161} INFO - Started process (PID=2282) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:04.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:37:04.231+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:04.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:04.485+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:04.674+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:04.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:37:04.692+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:04.692+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:04.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.487 seconds
+[2026-08-20T12:37:34.839+0000] {processor.py:161} INFO - Started process (PID=2371) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:34.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:37:34.844+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:34.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:35.336+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:37:35.374+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:35.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:37:35.396+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:35.395+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:35.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.579 seconds
+[2026-08-20T12:38:05.604+0000] {processor.py:161} INFO - Started process (PID=2460) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:05.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:38:05.607+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:05.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:06.066+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:06.108+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:06.107+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:38:06.130+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:06.130+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:06.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.558 seconds
+[2026-08-20T12:38:36.370+0000] {processor.py:161} INFO - Started process (PID=2546) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:36.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:38:36.373+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:36.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:36.978+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:38:37.025+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:37.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:38:37.049+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:37.048+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:37.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.706 seconds
+[2026-08-20T12:39:07.262+0000] {processor.py:161} INFO - Started process (PID=2631) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:07.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:39:07.266+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:07.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:07.690+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:07.732+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:07.732+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:39:07.753+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:07.753+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:07.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.518 seconds
+[2026-08-20T12:39:37.981+0000] {processor.py:161} INFO - Started process (PID=2719) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:37.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:39:37.985+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:37.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:38.418+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:39:38.459+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:38.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:39:38.480+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:38.479+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:38.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.522 seconds
+[2026-08-20T12:40:08.585+0000] {processor.py:161} INFO - Started process (PID=2809) to work on /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:40:08.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_pipeline_complet.py for tasks to queue
+[2026-08-20T12:40:08.589+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:40:08.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:40:09.009+0000] {processor.py:840} INFO - DAG(s) 'jour5_pipeline_complet' retrieved from /opt/airflow/dags/dag_pipeline_complet.py
+[2026-08-20T12:40:09.054+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:40:09.054+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:40:09.073+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:40:09.073+0000] {dag.py:3823} INFO - Setting next_dagrun for jour5_pipeline_complet to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:40:09.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_pipeline_complet.py took 0.513 seconds

@@ -1,0 +1,14 @@
+[2026-08-20T12:24:21.432+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour8_monitoring.extraire_avec_monitoring scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:24:21.482+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour8_monitoring.extraire_avec_monitoring scheduled__2026-08-19T00:00:00+00:00 [queued]>
+[2026-08-20T12:24:21.486+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-20T12:24:21.644+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraire_avec_monitoring> on 2026-08-19 00:00:00+00:00
+[2026-08-20T12:24:21.998+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour8_monitoring', 'extraire_avec_monitoring', 'scheduled__2026-08-19T00:00:00+00:00', '--job-id', '654', '--raw', '--subdir', 'DAGS_FOLDER/dag_monitoring.py', '--cfg-path', '/tmp/tmp3vmbh01a']
+[2026-08-20T12:24:22.048+0000] {standard_task_runner.py:88} INFO - Job 654: Subtask extraire_avec_monitoring
+[2026-08-20T12:24:21.987+0000] {standard_task_runner.py:60} INFO - Started process 114 to run task
+[2026-08-20T12:24:22.975+0000] {task_command.py:423} INFO - Running <TaskInstance: jour8_monitoring.extraire_avec_monitoring scheduled__2026-08-19T00:00:00+00:00 [running]> on host 69180f31ab0f
+[2026-08-20T12:24:23.456+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour8_monitoring' AIRFLOW_CTX_TASK_ID='extraire_avec_monitoring' AIRFLOW_CTX_EXECUTION_DATE='2026-08-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-19T00:00:00+00:00'
+[2026-08-20T12:24:25.613+0000] {logging_mixin.py:188} INFO - Extract OK — 39 lignes — 2.15s
+[2026-08-20T12:24:25.955+0000] {python.py:201} INFO - Done. Returned value was: {'path': '/tmp/raw_j8_2026-08-19.csv', 'nb_lignes': 39, 'ca_brut': 137860.0, 'duree_extract_s': 2.15}
+[2026-08-20T12:24:26.262+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour8_monitoring, task_id=extraire_avec_monitoring, execution_date=20260819T000000, start_date=20260820T122421, end_date=20260820T122426
+[2026-08-20T12:24:27.046+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-20T12:24:27.381+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

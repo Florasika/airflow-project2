@@ -1,0 +1,279 @@
+[2026-08-20T12:23:48.461+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:23:48.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:23:48.470+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:48.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:23:49.333+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_idf', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:23:50.260+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:50.259+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:23:50.308+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:50.308+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-19 00:00:00+00:00, run_after=2026-08-20 00:00:00+00:00
+[2026-08-20T12:23:50.328+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:50.327+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-19 00:00:00+00:00, run_after=2026-08-20 00:00:00+00:00
+[2026-08-20T12:23:50.352+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:50.351+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-19 00:00:00+00:00, run_after=2026-08-20 00:00:00+00:00
+[2026-08-20T12:23:50.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 2.006 seconds
+[2026-08-20T12:24:54.831+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:24:54.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:24:54.844+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:54.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:24:58.251+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:24:58.323+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:58.322+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:24:58.451+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:58.450+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:24:58.478+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:58.477+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:24:58.496+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:58.495+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:24:58.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 3.772 seconds
+[2026-08-20T12:25:29.129+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:25:29.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:25:29.132+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:29.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:25:29.538+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_ge', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:25:29.651+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:29.650+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:25:29.675+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:29.675+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:29.681+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:29.680+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:29.685+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:29.685+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:29.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.584 seconds
+[2026-08-20T12:26:00.595+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:00.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:26:00.598+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:00.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:01.090+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_idf', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:01.119+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:01.118+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:26:01.150+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:01.149+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:01.160+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:01.159+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:01.164+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:01.164+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:01.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.699 seconds
+[2026-08-20T12:26:31.539+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:31.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:26:31.543+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:31.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:31.997+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:26:32.023+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:32.022+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:26:32.118+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:32.118+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:32.124+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:32.124+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:32.127+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:32.127+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:32.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.752 seconds
+[2026-08-20T12:27:02.343+0000] {processor.py:161} INFO - Started process (PID=588) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:02.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:27:02.346+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:02.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:02.846+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_idf', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:02.869+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:02.868+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:27:02.887+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:02.887+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:02.892+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:02.891+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:02.894+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:02.894+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:02.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.572 seconds
+[2026-08-20T12:27:33.190+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:33.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:27:33.193+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:33.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:33.595+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_ge', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:27:33.621+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:33.621+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:27:33.645+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:33.644+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:33.651+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:33.651+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:33.655+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:33.655+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:33.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.573 seconds
+[2026-08-20T12:28:04.191+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:04.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:28:04.195+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:04.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:04.874+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_idf', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:04.914+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:04.913+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:28:04.952+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:04.952+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:04.962+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:04.961+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:04.967+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:04.967+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:05.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.815 seconds
+[2026-08-20T12:28:35.580+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:35.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:28:35.584+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:35.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:35.984+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:28:36.009+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:36.009+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:28:36.030+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:36.030+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:36.035+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:36.035+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:36.038+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:36.038+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:36.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.479 seconds
+[2026-08-20T12:29:06.516+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:06.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:29:06.520+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:06.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:06.967+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_ge', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:06.993+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:06.992+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:29:07.015+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:07.015+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:07.022+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:07.021+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:07.025+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:07.024+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:07.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.589 seconds
+[2026-08-20T12:29:37.223+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:37.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:29:37.227+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:37.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:37.475+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:29:37.505+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:37.504+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:29:37.529+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:37.529+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:37.534+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:37.534+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:37.537+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:37.537+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:37.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.374 seconds
+[2026-08-20T12:30:07.737+0000] {processor.py:161} INFO - Started process (PID=1105) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:07.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:30:07.741+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:07.741+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:08.034+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_idf', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:08.065+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:08.065+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:30:08.091+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:08.090+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:08.096+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:08.096+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:08.099+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:08.099+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:08.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.389 seconds
+[2026-08-20T12:30:38.443+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:38.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:30:38.447+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:38.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:38.678+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:30:38.704+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:38.703+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:30:38.725+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:38.725+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:38.729+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:38.729+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:38.732+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:38.732+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:38.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.351 seconds
+[2026-08-20T12:31:08.860+0000] {processor.py:161} INFO - Started process (PID=1277) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:08.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:31:08.864+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:08.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:09.163+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:09.190+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:09.190+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:31:09.215+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:09.215+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:09.220+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:09.220+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:09.223+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:09.223+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:09.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.386 seconds
+[2026-08-20T12:31:39.583+0000] {processor.py:161} INFO - Started process (PID=1363) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:39.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:31:39.587+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:39.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:39.832+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:31:39.860+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:39.859+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:31:39.883+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:39.883+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:39.889+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:39.888+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:39.892+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:39.891+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:39.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.361 seconds
+[2026-08-20T12:32:10.053+0000] {processor.py:161} INFO - Started process (PID=1448) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:10.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:32:10.056+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:10.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:10.619+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_idf', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:10.686+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:10.686+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:32:10.755+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:10.754+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:10.776+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:10.775+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:10.796+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:10.795+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:10.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.820 seconds
+[2026-08-20T12:32:41.163+0000] {processor.py:161} INFO - Started process (PID=1534) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:41.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:32:41.167+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:41.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:41.460+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:32:41.502+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:41.501+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:32:41.528+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:41.528+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:41.534+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:41.534+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:41.538+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:41.538+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:41.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.409 seconds
+[2026-08-20T12:33:12.328+0000] {processor.py:161} INFO - Started process (PID=1620) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:12.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:33:12.333+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:12.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:12.638+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:12.680+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:12.679+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:33:12.730+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:12.729+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:12.741+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:12.740+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:12.746+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:12.745+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:12.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.449 seconds
+[2026-08-20T12:33:42.894+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:42.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:33:42.902+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:42.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:43.238+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:33:43.275+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:43.275+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:33:43.366+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:43.366+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:43.374+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:43.374+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:43.378+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:43.378+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:43.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.514 seconds
+[2026-08-20T12:34:14.010+0000] {processor.py:161} INFO - Started process (PID=1793) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:14.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:34:14.015+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:14.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:14.312+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:14.347+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:14.346+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:34:14.372+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:14.372+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:14.377+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:14.377+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:14.380+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:14.380+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:14.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.397 seconds
+[2026-08-20T12:34:45.355+0000] {processor.py:161} INFO - Started process (PID=1879) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:45.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:34:45.361+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:45.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:45.936+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:34:46.008+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:46.007+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:34:46.057+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:46.057+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:46.072+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:46.071+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:46.077+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:46.077+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:46.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.783 seconds
+[2026-08-20T12:35:16.653+0000] {processor.py:161} INFO - Started process (PID=1965) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:16.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:35:16.658+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:16.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:16.904+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_ge', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:16.936+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:16.936+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:35:16.964+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:16.963+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:16.969+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:16.969+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:16.973+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:16.973+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:16.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.349 seconds
+[2026-08-20T12:35:47.730+0000] {processor.py:161} INFO - Started process (PID=2051) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:47.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:35:47.735+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:47.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:48.179+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_idf', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:35:48.220+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:48.220+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:35:48.254+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:48.254+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:48.261+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:48.260+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:48.265+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:48.264+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:48.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.567 seconds
+[2026-08-20T12:36:18.863+0000] {processor.py:161} INFO - Started process (PID=2137) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:18.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:36:18.867+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:18.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:19.119+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:19.149+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:19.149+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:36:19.176+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:19.176+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:19.182+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:19.182+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:19.188+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:19.188+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:19.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.353 seconds
+[2026-08-20T12:36:49.577+0000] {processor.py:161} INFO - Started process (PID=2223) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:49.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:36:49.581+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:49.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:49.850+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:36:49.879+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:49.878+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:36:50.064+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:50.063+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:50.072+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:50.072+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:50.077+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:50.076+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:50.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.520 seconds
+[2026-08-20T12:37:20.654+0000] {processor.py:161} INFO - Started process (PID=2310) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:20.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:37:20.657+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:20.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:21.136+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_paca', 'jour6_region_ge', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:21.161+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:21.160+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:37:21.182+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:21.182+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:21.188+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:21.187+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:21.191+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:21.191+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:21.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.558 seconds
+[2026-08-20T12:37:51.477+0000] {processor.py:161} INFO - Started process (PID=2402) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:51.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:37:51.480+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:51.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:51.938+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:37:51.964+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:51.963+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:37:51.996+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:51.996+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:52.001+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:52.001+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:52.005+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:52.005+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:52.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.551 seconds
+[2026-08-20T12:38:22.466+0000] {processor.py:161} INFO - Started process (PID=2488) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:22.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:38:22.473+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:22.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:23.201+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_idf', 'jour6_region_paca', 'jour6_region_ge' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:23.244+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:23.244+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:38:23.290+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:23.290+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:23.299+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:23.299+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:23.304+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:23.303+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:23.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.875 seconds
+[2026-08-20T12:38:53.725+0000] {processor.py:161} INFO - Started process (PID=2574) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:53.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:38:53.728+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:53.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:54.380+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_idf', 'jour6_region_paca' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:38:54.439+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:54.438+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:38:54.479+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:54.478+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:54.484+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:54.484+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:54.489+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:54.488+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:54.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.791 seconds
+[2026-08-20T12:39:24.703+0000] {processor.py:161} INFO - Started process (PID=2660) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:24.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:39:24.709+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:24.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:25.370+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:25.412+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:25.412+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:39:25.441+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:25.441+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:25.448+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:25.447+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:25.451+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:25.451+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:25.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.775 seconds
+[2026-08-20T12:39:55.575+0000] {processor.py:161} INFO - Started process (PID=2746) to work on /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:55.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dynamic.py for tasks to queue
+[2026-08-20T12:39:55.578+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:55.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:56.108+0000] {processor.py:840} INFO - DAG(s) 'jour6_region_ge', 'jour6_region_paca', 'jour6_region_idf' retrieved from /opt/airflow/dags/dag_dynamic.py
+[2026-08-20T12:39:56.155+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:56.154+0000] {dag.py:3036} INFO - Sync 3 DAGs
+[2026-08-20T12:39:56.194+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:56.193+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_ge to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:56.202+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:56.202+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_idf to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:56.208+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:56.207+0000] {dag.py:3823} INFO - Setting next_dagrun for jour6_region_paca to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:56.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dynamic.py took 0.669 seconds

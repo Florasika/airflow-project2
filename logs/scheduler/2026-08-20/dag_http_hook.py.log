@@ -1,0 +1,217 @@
+[2026-08-20T12:23:57.916+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:23:57.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:23:57.940+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:23:57.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:23:59.520+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:24:02.779+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:02.769+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:24:02.952+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:24:02.951+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-19 00:00:00+00:00, run_after=2026-08-20 00:00:00+00:00
+[2026-08-20T12:24:03.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 5.242 seconds
+[2026-08-20T12:25:01.319+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:01.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:25:01.326+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:01.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:02.844+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:02.912+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:02.911+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:25:03.036+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:03.036+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:03.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 1.852 seconds
+[2026-08-20T12:25:33.650+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:33.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:25:33.653+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:33.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:34.189+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:25:34.301+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:34.300+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:25:34.326+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:25:34.325+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:25:34.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.706 seconds
+[2026-08-20T12:26:05.227+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:05.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:26:05.231+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:05.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:05.725+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:05.744+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:05.744+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:26:05.764+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:05.764+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:05.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.562 seconds
+[2026-08-20T12:26:35.908+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:35.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:26:35.912+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:35.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:36.408+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:26:36.433+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:36.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:26:36.461+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:26:36.460+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:26:36.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.944 seconds
+[2026-08-20T12:27:07.555+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:07.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:27:07.560+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:07.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:07.985+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:08.002+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:08.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:27:08.022+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:08.022+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:08.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.530 seconds
+[2026-08-20T12:27:38.443+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:38.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:27:38.447+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:38.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:38.874+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:27:38.891+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:38.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:27:38.914+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:27:38.914+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:27:39.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.604 seconds
+[2026-08-20T12:28:09.153+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:09.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:28:09.157+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:09.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:09.570+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:09.590+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:09.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:28:09.611+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:09.611+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:09.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.484 seconds
+[2026-08-20T12:28:40.552+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:40.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:28:40.555+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:40.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:41.066+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:28:41.086+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:41.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:28:41.116+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:28:41.115+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:28:41.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.613 seconds
+[2026-08-20T12:29:11.789+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:11.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:29:11.793+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:11.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:12.189+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:12.205+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:12.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:29:12.224+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:12.224+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:12.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.509 seconds
+[2026-08-20T12:29:42.604+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:42.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:29:42.612+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:42.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:42.913+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:29:42.935+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:42.935+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:29:42.961+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:29:42.961+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:29:43.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.428 seconds
+[2026-08-20T12:30:13.096+0000] {processor.py:161} INFO - Started process (PID=1111) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:13.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:30:13.099+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:13.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:13.327+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:13.377+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:13.377+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:30:13.398+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:13.398+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:13.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.370 seconds
+[2026-08-20T12:30:43.728+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:43.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:30:43.732+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:43.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:43.983+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:30:44.004+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:44.003+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:30:44.026+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:30:44.025+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:30:44.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.413 seconds
+[2026-08-20T12:31:14.213+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:14.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:31:14.217+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:14.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:14.500+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:14.524+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:14.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:31:14.553+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:14.552+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:14.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.412 seconds
+[2026-08-20T12:31:44.892+0000] {processor.py:161} INFO - Started process (PID=1369) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:44.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:31:44.895+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:44.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:45.125+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:31:45.145+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:45.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:31:45.167+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:31:45.167+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:31:45.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.334 seconds
+[2026-08-20T12:32:15.432+0000] {processor.py:161} INFO - Started process (PID=1455) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:15.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:32:15.436+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:15.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:15.702+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:15.722+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:15.722+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:32:15.746+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:15.745+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:15.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.340 seconds
+[2026-08-20T12:32:46.083+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:46.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:32:46.087+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:46.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:46.343+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:32:46.364+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:46.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:32:46.392+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:32:46.392+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:32:46.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.339 seconds
+[2026-08-20T12:33:17.000+0000] {processor.py:161} INFO - Started process (PID=1628) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:17.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:33:17.004+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:17.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:17.247+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:17.269+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:17.268+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:33:17.292+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:17.292+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:17.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.319 seconds
+[2026-08-20T12:33:47.420+0000] {processor.py:161} INFO - Started process (PID=1715) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:47.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:33:47.423+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:47.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:47.672+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:33:47.696+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:47.696+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:33:47.720+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:33:47.720+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:33:47.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.324 seconds
+[2026-08-20T12:34:17.869+0000] {processor.py:161} INFO - Started process (PID=1801) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:17.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:34:17.872+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:17.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:18.118+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:18.141+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:18.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:34:18.166+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:18.166+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:18.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.323 seconds
+[2026-08-20T12:34:48.508+0000] {processor.py:161} INFO - Started process (PID=1887) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:48.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:34:48.511+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:48.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:48.807+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:34:48.830+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:48.829+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:34:48.862+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:34:48.862+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:34:48.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.382 seconds
+[2026-08-20T12:35:19.104+0000] {processor.py:161} INFO - Started process (PID=1973) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:19.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:35:19.108+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:19.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:19.355+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:19.380+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:19.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:35:19.410+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:19.410+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:19.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.331 seconds
+[2026-08-20T12:35:49.837+0000] {processor.py:161} INFO - Started process (PID=2059) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:49.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:35:49.842+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:49.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:50.183+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:35:50.223+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:50.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:35:50.258+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:35:50.258+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:35:50.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.458 seconds
+[2026-08-20T12:36:20.760+0000] {processor.py:161} INFO - Started process (PID=2145) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:20.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:36:20.763+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:20.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:20.991+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:21.011+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:21.010+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:36:21.036+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:21.035+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:21.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.303 seconds
+[2026-08-20T12:36:51.200+0000] {processor.py:161} INFO - Started process (PID=2230) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:51.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:36:51.204+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:51.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:51.438+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:36:51.456+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:51.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:36:51.597+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:36:51.597+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:36:51.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.417 seconds
+[2026-08-20T12:37:21.714+0000] {processor.py:161} INFO - Started process (PID=2322) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:21.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:37:21.717+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:21.717+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:22.134+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:22.152+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:22.152+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:37:22.171+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:22.170+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:22.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.479 seconds
+[2026-08-20T12:37:52.580+0000] {processor.py:161} INFO - Started process (PID=2408) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:52.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:37:52.583+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:52.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:53.018+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:37:53.036+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:53.036+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:37:53.059+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:37:53.058+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:37:53.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.503 seconds
+[2026-08-20T12:38:24.925+0000] {processor.py:161} INFO - Started process (PID=2497) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:24.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:38:24.931+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:24.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:25.467+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:25.485+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:25.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:38:25.504+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:25.504+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:25.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.603 seconds
+[2026-08-20T12:38:55.765+0000] {processor.py:161} INFO - Started process (PID=2583) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:55.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:38:55.771+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:55.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:56.238+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:38:56.254+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:56.253+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:38:56.275+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:38:56.275+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:38:56.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.532 seconds
+[2026-08-20T12:39:26.569+0000] {processor.py:161} INFO - Started process (PID=2668) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:26.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:39:26.574+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:26.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:27.106+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:27.127+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:27.127+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:39:27.153+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:27.153+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:27.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.614 seconds
+[2026-08-20T12:39:57.394+0000] {processor.py:161} INFO - Started process (PID=2754) to work on /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:57.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_http_hook.py for tasks to queue
+[2026-08-20T12:39:57.399+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:57.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:57.966+0000] {processor.py:840} INFO - DAG(s) 'jour3_http_hook' retrieved from /opt/airflow/dags/dag_http_hook.py
+[2026-08-20T12:39:57.989+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:57.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-20T12:39:58.013+0000] {logging_mixin.py:188} INFO - [2026-08-20T12:39:58.013+0000] {dag.py:3823} INFO - Setting next_dagrun for jour3_http_hook to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-20T12:39:58.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_http_hook.py took 0.650 seconds

@@ -1,0 +1,15 @@
+[2026-08-21T11:42:47.061+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour3_http_hook.appeler_api scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:42:47.080+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour3_http_hook.appeler_api scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:42:47.081+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-08-21T11:42:47.137+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): appeler_api> on 2026-08-20 00:00:00+00:00
+[2026-08-21T11:42:47.199+0000] {standard_task_runner.py:60} INFO - Started process 135 to run task
+[2026-08-21T11:42:47.211+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour3_http_hook', 'appeler_api', 'scheduled__2026-08-20T00:00:00+00:00', '--job-id', '745', '--raw', '--subdir', 'DAGS_FOLDER/dag_http_hook.py', '--cfg-path', '/tmp/tmpdek6g0lu']
+[2026-08-21T11:42:47.237+0000] {standard_task_runner.py:88} INFO - Job 745: Subtask appeler_api
+[2026-08-21T11:42:47.476+0000] {task_command.py:423} INFO - Running <TaskInstance: jour3_http_hook.appeler_api scheduled__2026-08-20T00:00:00+00:00 [running]> on host 555765e05379
+[2026-08-21T11:42:48.021+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour3_http_hook' AIRFLOW_CTX_TASK_ID='appeler_api' AIRFLOW_CTX_EXECUTION_DATE='2026-08-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-20T00:00:00+00:00'
+[2026-08-21T11:42:48.127+0000] {base.py:83} INFO - Using connection ID 'api_jsonplaceholder' for task execution.
+[2026-08-21T11:42:49.953+0000] {logging_mixin.py:188} INFO - API appelée ✓ — 10 enregistrements récupérés
+[2026-08-21T11:42:49.997+0000] {python.py:201} INFO - Done. Returned value was: /tmp/api_posts_2026-08-20.csv
+[2026-08-21T11:42:50.207+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour3_http_hook, task_id=appeler_api, execution_date=20260820T000000, start_date=20260821T114247, end_date=20260821T114250
+[2026-08-21T11:42:50.408+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-21T11:42:50.496+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

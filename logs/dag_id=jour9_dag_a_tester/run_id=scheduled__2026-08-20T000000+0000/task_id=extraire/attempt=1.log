@@ -1,0 +1,13 @@
+[2026-08-21T11:57:20.668+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jour9_dag_a_tester.extraire scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:57:20.675+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jour9_dag_a_tester.extraire scheduled__2026-08-20T00:00:00+00:00 [queued]>
+[2026-08-21T11:57:20.676+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-08-21T11:57:20.689+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraire> on 2026-08-20 00:00:00+00:00
+[2026-08-21T11:57:20.697+0000] {standard_task_runner.py:60} INFO - Started process 513 to run task
+[2026-08-21T11:57:20.700+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jour9_dag_a_tester', 'extraire', 'scheduled__2026-08-20T00:00:00+00:00', '--job-id', '805', '--raw', '--subdir', 'DAGS_FOLDER/dag_a_tester.py', '--cfg-path', '/tmp/tmp123zw181']
+[2026-08-21T11:57:20.702+0000] {standard_task_runner.py:88} INFO - Job 805: Subtask extraire
+[2026-08-21T11:57:20.766+0000] {task_command.py:423} INFO - Running <TaskInstance: jour9_dag_a_tester.extraire scheduled__2026-08-20T00:00:00+00:00 [running]> on host 555765e05379
+[2026-08-21T11:57:20.837+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sung' AIRFLOW_CTX_DAG_ID='jour9_dag_a_tester' AIRFLOW_CTX_TASK_ID='extraire' AIRFLOW_CTX_EXECUTION_DATE='2026-08-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-20T00:00:00+00:00'
+[2026-08-21T11:57:20.849+0000] {python.py:201} INFO - Done. Returned value was: /tmp/raw_j9_2026-08-20.csv
+[2026-08-21T11:57:20.878+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jour9_dag_a_tester, task_id=extraire, execution_date=20260820T000000, start_date=20260821T115720, end_date=20260821T115720
+[2026-08-21T11:57:20.913+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-08-21T11:57:20.938+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

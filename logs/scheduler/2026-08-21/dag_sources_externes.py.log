@@ -1,0 +1,679 @@
+[2026-08-21T11:42:23.253+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:42:23.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:42:23.259+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:42:23.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:42:24.632+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:42:25.092+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:42:25.091+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:42:25.131+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:42:25.131+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-20 00:00:00+00:00, run_after=2026-08-21 00:00:00+00:00
+[2026-08-21T11:42:25.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 1.941 seconds
+[2026-08-21T11:43:11.274+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:11.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:43:11.280+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:11.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:11.941+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:12.401+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:12.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:43:12.443+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:12.442+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:43:12.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 1.238 seconds
+[2026-08-21T11:43:42.660+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:42.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:43:42.663+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:42.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:43.029+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:43:43.046+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:43.045+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:43:43.065+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:43:43.065+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:43:43.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.427 seconds
+[2026-08-21T11:44:13.263+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:13.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:44:13.267+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:13.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:13.621+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:13.695+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:13.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:44:13.715+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:13.715+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:44:13.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.496 seconds
+[2026-08-21T11:44:43.839+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:43.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:44:43.843+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:43.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:44.480+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:44:44.507+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:44.506+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:44:44.531+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:44:44.531+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:44:44.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.739 seconds
+[2026-08-21T11:45:15.504+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:15.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:45:15.510+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:15.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:15.967+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:16.066+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:16.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:45:16.087+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:16.087+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:45:16.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.615 seconds
+[2026-08-21T11:45:46.860+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:46.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:45:46.865+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:46.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:47.525+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:45:47.560+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:47.559+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:45:47.603+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:45:47.603+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:45:47.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.782 seconds
+[2026-08-21T11:46:18.086+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:18.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:46:18.089+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:18.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:18.682+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:18.774+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:18.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:46:18.797+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:18.797+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:46:18.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.820 seconds
+[2026-08-21T11:46:49.671+0000] {processor.py:161} INFO - Started process (PID=700) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:49.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:46:49.676+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:49.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:50.162+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:46:50.185+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:50.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:46:50.210+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:46:50.210+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:46:50.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.639 seconds
+[2026-08-21T11:47:20.417+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:20.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:47:20.421+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:20.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:20.924+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:20.944+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:20.944+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:47:20.964+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:20.964+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:47:21.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.641 seconds
+[2026-08-21T11:47:51.299+0000] {processor.py:161} INFO - Started process (PID=875) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:51.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:47:51.304+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:51.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:51.673+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:47:51.700+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:51.699+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:47:51.730+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:47:51.730+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:47:51.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.532 seconds
+[2026-08-21T11:48:22.059+0000] {processor.py:161} INFO - Started process (PID=963) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:22.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:48:22.062+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:22.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:22.305+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:22.328+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:22.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:48:22.353+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:22.353+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:48:22.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.386 seconds
+[2026-08-21T11:48:40.705+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:40.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:48:40.709+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:40.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:41.114+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:48:41.138+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:41.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:48:41.161+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:48:41.161+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:48:41.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.543 seconds
+[2026-08-21T11:49:11.544+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:11.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:49:11.547+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:11.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:11.992+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:12.013+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:12.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:49:12.035+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:12.035+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:49:12.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.551 seconds
+[2026-08-21T11:49:42.176+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:42.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:49:42.185+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:42.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:42.576+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:49:42.596+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:42.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:49:42.616+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:49:42.615+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:49:42.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.464 seconds
+[2026-08-21T11:50:13.185+0000] {processor.py:161} INFO - Started process (PID=316) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:13.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:50:13.189+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:13.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:13.599+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:13.616+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:13.615+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:50:13.636+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:13.636+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:50:13.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.474 seconds
+[2026-08-21T11:50:43.978+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:43.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:50:43.982+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:43.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:44.476+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:50:44.500+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:44.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:50:44.520+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:50:44.519+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:50:44.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.567 seconds
+[2026-08-21T11:51:15.116+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:15.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:51:15.119+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:15.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:15.471+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:15.489+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:15.488+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:51:15.509+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:15.508+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:51:15.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.415 seconds
+[2026-08-21T11:51:46.049+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:46.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:51:46.054+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:46.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:46.430+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:51:46.450+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:46.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:51:46.471+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:51:46.470+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:51:46.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.444 seconds
+[2026-08-21T11:52:16.974+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:16.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:52:16.978+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:16.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:17.451+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:17.473+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:17.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:52:17.503+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:17.503+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:52:17.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.561 seconds
+[2026-08-21T11:52:48.258+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:48.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:52:48.261+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:48.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:48.632+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:52:48.651+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:48.651+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:52:48.672+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:52:48.672+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:52:48.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.438 seconds
+[2026-08-21T11:53:18.808+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:18.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:53:18.811+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:18.811+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:19.043+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:19.064+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:19.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:53:19.086+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:19.085+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:53:19.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.302 seconds
+[2026-08-21T11:53:49.591+0000] {processor.py:161} INFO - Started process (PID=932) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:49.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:53:49.595+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:49.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:49.833+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:53:49.856+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:49.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:53:49.879+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:53:49.879+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:53:49.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.309 seconds
+[2026-08-21T11:54:20.729+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:20.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:54:20.732+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:20.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:20.997+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:21.018+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:21.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:54:21.040+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:21.040+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:54:21.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.335 seconds
+[2026-08-21T11:54:51.811+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:51.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:54:51.815+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:51.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:52.090+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:54:52.110+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:52.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:54:52.130+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:54:52.130+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:54:52.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.341 seconds
+[2026-08-21T11:55:22.310+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:22.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:55:22.313+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:22.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:22.557+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:22.578+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:22.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:55:22.602+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:22.601+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:55:22.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.316 seconds
+[2026-08-21T11:55:53.009+0000] {processor.py:161} INFO - Started process (PID=1281) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:53.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:55:53.013+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:53.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:53.417+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:55:53.445+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:53.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:55:53.477+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:55:53.476+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:55:53.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.499 seconds
+[2026-08-21T11:56:24.073+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:24.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:56:24.078+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:24.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:24.351+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:24.375+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:24.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:56:24.404+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:24.403+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:56:24.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.361 seconds
+[2026-08-21T11:56:55.144+0000] {processor.py:161} INFO - Started process (PID=1455) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:55.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:56:55.151+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:55.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:55.588+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:56:55.621+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:55.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:56:55.657+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:56:55.657+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:56:55.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.546 seconds
+[2026-08-21T11:57:26.093+0000] {processor.py:161} INFO - Started process (PID=1543) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:26.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:57:26.097+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:26.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:26.439+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:26.463+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:26.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:57:26.496+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:26.495+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:57:26.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.437 seconds
+[2026-08-21T11:57:57.026+0000] {processor.py:161} INFO - Started process (PID=1630) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:57.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:57:57.032+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:57.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:57.327+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:57:57.423+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:57.423+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:57:57.594+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:57:57.593+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:57:57.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.595 seconds
+[2026-08-21T11:58:28.515+0000] {processor.py:161} INFO - Started process (PID=1717) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:58:28.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:58:28.518+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:58:28.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:58:28.887+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:58:29.045+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:58:29.044+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:58:29.101+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:58:29.100+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:58:29.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.877 seconds
+[2026-08-21T11:58:59.525+0000] {processor.py:161} INFO - Started process (PID=1804) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:58:59.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:58:59.529+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:58:59.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:58:59.824+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:59:00.105+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:59:00.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:59:00.130+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:59:00.128+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:59:00.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.637 seconds
+[2026-08-21T11:59:30.773+0000] {processor.py:161} INFO - Started process (PID=1892) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:59:30.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T11:59:30.776+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:59:30.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:59:31.150+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T11:59:31.171+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:59:31.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T11:59:31.196+0000] {logging_mixin.py:188} INFO - [2026-08-21T11:59:31.196+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T11:59:31.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.582 seconds
+[2026-08-21T12:00:01.556+0000] {processor.py:161} INFO - Started process (PID=1979) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:01.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:00:01.562+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:01.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:02.105+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:02.132+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:02.131+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:00:02.161+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:02.160+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:00:02.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.643 seconds
+[2026-08-21T12:00:32.320+0000] {processor.py:161} INFO - Started process (PID=2066) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:32.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:00:32.324+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:32.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:32.824+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:00:32.852+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:32.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:00:32.877+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:00:32.877+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:00:32.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.586 seconds
+[2026-08-21T12:01:02.989+0000] {processor.py:161} INFO - Started process (PID=2153) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:02.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:01:02.993+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:02.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:03.424+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:03.444+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:03.443+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:01:03.466+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:03.465+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:01:03.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.500 seconds
+[2026-08-21T12:01:33.797+0000] {processor.py:161} INFO - Started process (PID=2240) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:33.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:01:33.808+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:33.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:34.242+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:01:34.262+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:34.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:01:34.284+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:01:34.284+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:01:34.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.512 seconds
+[2026-08-21T12:02:04.410+0000] {processor.py:161} INFO - Started process (PID=2327) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:04.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:02:04.413+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:04.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:04.802+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:04.827+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:04.826+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:02:04.852+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:04.852+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:02:04.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.472 seconds
+[2026-08-21T12:02:35.121+0000] {processor.py:161} INFO - Started process (PID=2414) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:35.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:02:35.125+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:35.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:35.539+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:02:35.561+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:35.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:02:35.581+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:02:35.581+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:02:35.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.482 seconds
+[2026-08-21T12:03:06.074+0000] {processor.py:161} INFO - Started process (PID=2501) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:06.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:03:06.078+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:06.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:06.498+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:06.518+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:06.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:03:06.541+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:06.540+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:03:06.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.491 seconds
+[2026-08-21T12:03:36.817+0000] {processor.py:161} INFO - Started process (PID=2588) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:36.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:03:36.820+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:36.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:37.198+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:03:37.215+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:37.215+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:03:37.234+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:03:37.234+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:03:37.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.442 seconds
+[2026-08-21T12:04:07.738+0000] {processor.py:161} INFO - Started process (PID=2676) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:07.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:04:07.742+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:07.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:08.143+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:08.160+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:08.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:04:08.181+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:08.181+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:04:08.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.467 seconds
+[2026-08-21T12:04:38.372+0000] {processor.py:161} INFO - Started process (PID=2762) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:38.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:04:38.376+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:38.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:38.839+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:04:38.858+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:38.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:04:38.881+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:04:38.881+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:04:38.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.543 seconds
+[2026-08-21T12:05:10.769+0000] {processor.py:161} INFO - Started process (PID=2857) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:10.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:05:10.777+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:10.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:12.167+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:12.210+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:12.209+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:05:12.255+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:12.254+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:05:12.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 1.760 seconds
+[2026-08-21T12:05:42.977+0000] {processor.py:161} INFO - Started process (PID=2964) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:42.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:05:42.980+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:42.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:43.265+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:05:43.286+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:43.285+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:05:43.307+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:05:43.307+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:05:43.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.353 seconds
+[2026-08-21T12:06:13.739+0000] {processor.py:161} INFO - Started process (PID=3051) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:13.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:06:13.742+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:13.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:13.972+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:13.992+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:13.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:06:14.013+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:14.013+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:06:14.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.297 seconds
+[2026-08-21T12:06:44.960+0000] {processor.py:161} INFO - Started process (PID=3144) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:44.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:06:44.965+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:44.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:45.212+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:06:45.232+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:45.232+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:06:45.253+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:06:45.253+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:06:45.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.316 seconds
+[2026-08-21T12:07:15.714+0000] {processor.py:161} INFO - Started process (PID=3231) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:15.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:07:15.717+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:15.717+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:15.971+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:15.996+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:15.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:07:16.019+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:16.019+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:07:16.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.330 seconds
+[2026-08-21T12:07:47.130+0000] {processor.py:161} INFO - Started process (PID=3318) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:47.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:07:47.137+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:47.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:47.940+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:07:47.981+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:47.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:07:48.027+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:07:48.026+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:07:48.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.956 seconds
+[2026-08-21T12:08:18.506+0000] {processor.py:161} INFO - Started process (PID=3405) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:18.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:08:18.510+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:18.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:18.815+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:18.834+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:18.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:08:18.856+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:18.856+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:08:18.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.374 seconds
+[2026-08-21T12:08:49.905+0000] {processor.py:161} INFO - Started process (PID=3492) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:49.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:08:49.910+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:49.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:50.176+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:08:50.199+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:50.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:08:50.222+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:08:50.222+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:08:50.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.343 seconds
+[2026-08-21T12:09:20.399+0000] {processor.py:161} INFO - Started process (PID=3583) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:20.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:09:20.402+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:20.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:20.635+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:20.654+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:20.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:09:20.673+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:20.673+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:09:20.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.297 seconds
+[2026-08-21T12:09:51.714+0000] {processor.py:161} INFO - Started process (PID=3670) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:51.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:09:51.718+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:51.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:51.975+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:09:52.001+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:52.000+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:09:52.026+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:09:52.025+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:09:52.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.339 seconds
+[2026-08-21T12:10:22.876+0000] {processor.py:161} INFO - Started process (PID=3758) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:22.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:10:22.879+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:22.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:23.140+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:23.163+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:23.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:10:23.186+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:23.186+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:10:23.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.334 seconds
+[2026-08-21T12:10:53.553+0000] {processor.py:161} INFO - Started process (PID=3850) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:53.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:10:53.557+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:53.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:53.837+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:10:53.858+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:53.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:10:53.884+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:10:53.884+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:10:53.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.358 seconds
+[2026-08-21T12:11:24.597+0000] {processor.py:161} INFO - Started process (PID=3937) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:24.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:11:24.601+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:24.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:25.047+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:25.067+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:25.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:11:25.088+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:25.088+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:11:25.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.514 seconds
+[2026-08-21T12:11:55.216+0000] {processor.py:161} INFO - Started process (PID=4023) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:55.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:11:55.220+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:55.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:55.491+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:11:55.512+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:55.512+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:11:55.679+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:11:55.678+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:11:55.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.486 seconds
+[2026-08-21T12:12:26.057+0000] {processor.py:161} INFO - Started process (PID=4111) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:26.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:12:26.061+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:26.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:26.458+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:26.477+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:26.477+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:12:26.497+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:26.497+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:12:26.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.462 seconds
+[2026-08-21T12:12:56.745+0000] {processor.py:161} INFO - Started process (PID=4198) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:56.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:12:56.750+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:56.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:57.209+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:12:57.228+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:57.228+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:12:57.248+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:12:57.248+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:12:57.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.527 seconds
+[2026-08-21T12:13:27.928+0000] {processor.py:161} INFO - Started process (PID=4285) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:27.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:13:27.932+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:27.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:28.306+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:28.326+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:28.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:13:28.347+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:28.347+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:13:28.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.441 seconds
+[2026-08-21T12:13:58.558+0000] {processor.py:161} INFO - Started process (PID=4373) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:58.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:13:58.561+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:58.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:58.952+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:13:58.970+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:58.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:13:58.997+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:13:58.996+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:13:59.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.463 seconds
+[2026-08-21T12:14:29.231+0000] {processor.py:161} INFO - Started process (PID=4460) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:14:29.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:14:29.235+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:14:29.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:14:29.634+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:14:29.654+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:14:29.653+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:14:29.678+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:14:29.677+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:14:29.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.477 seconds
+[2026-08-21T12:14:59.787+0000] {processor.py:161} INFO - Started process (PID=4546) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:14:59.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:14:59.791+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:14:59.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:15:00.210+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:15:00.228+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:15:00.228+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:15:00.250+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:15:00.250+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:15:00.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.487 seconds
+[2026-08-21T12:15:30.419+0000] {processor.py:161} INFO - Started process (PID=4633) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:15:30.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:15:30.424+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:15:30.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:15:30.830+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:15:30.848+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:15:30.847+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:15:30.868+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:15:30.868+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:15:30.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.476 seconds
+[2026-08-21T12:16:01.057+0000] {processor.py:161} INFO - Started process (PID=4720) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:01.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:16:01.061+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:01.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:01.476+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:01.496+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:01.496+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:16:01.519+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:01.519+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:16:01.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.486 seconds
+[2026-08-21T12:16:31.613+0000] {processor.py:161} INFO - Started process (PID=4808) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:31.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:16:31.617+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:31.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:31.973+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:16:31.992+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:31.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:16:32.016+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:16:32.016+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:16:32.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.424 seconds
+[2026-08-21T12:17:02.379+0000] {processor.py:161} INFO - Started process (PID=4895) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:02.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:17:02.383+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:02.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:02.738+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:02.756+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:02.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:17:02.775+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:02.774+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:17:02.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.418 seconds
+[2026-08-21T12:17:33.055+0000] {processor.py:161} INFO - Started process (PID=4982) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:33.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:17:33.058+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:33.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:33.287+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:17:33.305+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:33.305+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:17:33.326+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:17:33.325+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:17:33.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.294 seconds
+[2026-08-21T12:18:03.475+0000] {processor.py:161} INFO - Started process (PID=5071) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:03.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:18:03.488+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:03.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:04.328+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:04.365+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:04.365+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:18:04.416+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:04.415+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:18:04.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.994 seconds
+[2026-08-21T12:18:34.875+0000] {processor.py:161} INFO - Started process (PID=5158) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:34.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:18:34.881+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:34.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:35.207+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:18:35.228+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:35.227+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:18:35.248+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:18:35.247+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:18:35.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.393 seconds
+[2026-08-21T12:19:05.514+0000] {processor.py:161} INFO - Started process (PID=5245) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:05.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:19:05.518+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:05.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:05.741+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:05.759+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:05.758+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:19:05.779+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:05.779+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:19:05.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.287 seconds
+[2026-08-21T12:19:36.180+0000] {processor.py:161} INFO - Started process (PID=5332) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:36.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:19:36.183+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:36.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:36.412+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:19:36.431+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:36.430+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:19:36.460+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:19:36.460+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:19:36.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.306 seconds
+[2026-08-21T12:20:06.936+0000] {processor.py:161} INFO - Started process (PID=5419) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:06.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:20:06.942+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:06.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:07.337+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:07.360+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:07.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:20:07.383+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:07.383+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:20:07.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.476 seconds
+[2026-08-21T12:20:38.465+0000] {processor.py:161} INFO - Started process (PID=5506) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:38.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:20:38.477+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:38.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:39.452+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:20:39.508+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:39.507+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:20:39.563+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:20:39.563+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:20:39.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 1.423 seconds
+[2026-08-21T12:21:10.157+0000] {processor.py:161} INFO - Started process (PID=5592) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:10.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:21:10.161+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:10.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:10.468+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:10.491+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:10.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:21:10.514+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:10.514+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:21:10.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.544 seconds
+[2026-08-21T12:21:41.099+0000] {processor.py:161} INFO - Started process (PID=5679) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:41.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:21:41.105+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:41.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:41.596+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:21:41.617+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:41.617+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:21:41.643+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:21:41.642+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:21:41.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.612 seconds
+[2026-08-21T12:22:12.708+0000] {processor.py:161} INFO - Started process (PID=5766) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:12.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:22:12.714+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:12.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:13.174+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:13.198+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:13.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:22:13.224+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:13.224+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:22:13.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.578 seconds
+[2026-08-21T12:22:43.721+0000] {processor.py:161} INFO - Started process (PID=5854) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:43.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:22:43.727+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:43.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:44.518+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:22:44.554+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:44.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:22:44.593+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:22:44.592+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:22:44.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.954 seconds
+[2026-08-21T12:23:15.471+0000] {processor.py:161} INFO - Started process (PID=5941) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:15.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:23:15.475+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:15.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:16.098+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:16.118+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:16.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:23:16.142+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:16.142+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:23:16.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.733 seconds
+[2026-08-21T12:23:46.254+0000] {processor.py:161} INFO - Started process (PID=6027) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:46.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:23:46.258+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:46.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:46.615+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:23:46.634+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:46.634+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:23:46.652+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:23:46.652+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:23:46.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.464 seconds
+[2026-08-21T12:24:17.574+0000] {processor.py:161} INFO - Started process (PID=6115) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:17.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:24:17.577+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:17.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:18.013+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:18.033+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:18.033+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:24:18.055+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:18.054+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:24:18.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.585 seconds
+[2026-08-21T12:24:48.496+0000] {processor.py:161} INFO - Started process (PID=6207) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:48.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:24:48.500+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:48.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:48.971+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:24:48.991+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:48.990+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:24:49.012+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:24:49.012+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:24:49.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.602 seconds
+[2026-08-21T12:25:19.507+0000] {processor.py:161} INFO - Started process (PID=6295) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:19.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:25:19.512+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:19.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:19.959+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:19.978+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:19.978+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:25:19.999+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:19.999+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:25:20.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.519 seconds
+[2026-08-21T12:25:50.230+0000] {processor.py:161} INFO - Started process (PID=6382) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:50.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:25:50.234+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:50.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:50.852+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:25:50.885+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:50.884+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:25:50.915+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:25:50.915+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:25:50.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.714 seconds
+[2026-08-21T12:26:21.125+0000] {processor.py:161} INFO - Started process (PID=6470) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:21.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:26:21.132+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:21.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:21.792+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:21.822+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:21.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:26:21.861+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:21.860+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:26:21.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.771 seconds
+[2026-08-21T12:26:52.397+0000] {processor.py:161} INFO - Started process (PID=6557) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:52.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:26:52.401+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:52.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:52.645+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:26:52.665+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:52.665+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:26:52.687+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:26:52.687+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:26:52.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.313 seconds
+[2026-08-21T12:27:22.823+0000] {processor.py:161} INFO - Started process (PID=6648) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:22.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:27:22.829+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:22.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:23.151+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:23.171+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:23.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:27:23.194+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:23.193+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:27:23.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.401 seconds
+[2026-08-21T12:27:54.104+0000] {processor.py:161} INFO - Started process (PID=6735) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:54.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:27:54.108+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:54.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:54.343+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:27:54.362+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:54.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:27:54.383+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:27:54.383+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:27:54.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.300 seconds
+[2026-08-21T12:28:24.452+0000] {processor.py:161} INFO - Started process (PID=6822) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:24.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:28:24.455+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:24.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:24.685+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:24.704+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:24.704+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:28:24.726+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:24.726+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:28:24.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.297 seconds
+[2026-08-21T12:28:55.137+0000] {processor.py:161} INFO - Started process (PID=6909) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:55.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:28:55.141+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:55.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:55.385+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:28:55.405+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:55.405+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:28:55.427+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:28:55.427+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:28:55.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.312 seconds
+[2026-08-21T12:29:26.335+0000] {processor.py:161} INFO - Started process (PID=6996) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:26.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:29:26.339+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:26.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:26.580+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:26.599+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:26.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:29:26.621+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:26.621+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:29:26.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.308 seconds
+[2026-08-21T12:29:57.624+0000] {processor.py:161} INFO - Started process (PID=7083) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:57.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:29:57.627+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:57.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:57.862+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:29:57.881+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:57.880+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:29:57.901+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:29:57.900+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:29:57.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.298 seconds
+[2026-08-21T12:30:28.717+0000] {processor.py:161} INFO - Started process (PID=7170) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:28.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:30:28.720+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:28.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:28.979+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:28.999+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:28.999+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:30:29.022+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:29.021+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:30:29.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.330 seconds
+[2026-08-21T12:30:59.241+0000] {processor.py:161} INFO - Started process (PID=7258) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:59.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:30:59.245+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:59.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:59.480+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:30:59.500+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:59.500+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:30:59.523+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:30:59.523+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:30:59.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.461 seconds
+[2026-08-21T12:31:29.862+0000] {processor.py:161} INFO - Started process (PID=7345) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:31:29.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:31:29.867+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:31:29.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:31:30.099+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:31:30.120+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:31:30.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:31:30.140+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:31:30.140+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:31:30.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.302 seconds
+[2026-08-21T12:32:00.475+0000] {processor.py:161} INFO - Started process (PID=7432) to work on /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:32:00.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_sources_externes.py for tasks to queue
+[2026-08-21T12:32:00.479+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:32:00.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:32:00.757+0000] {processor.py:840} INFO - DAG(s) 'jour7_sources_externes' retrieved from /opt/airflow/dags/dag_sources_externes.py
+[2026-08-21T12:32:00.781+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:32:00.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-08-21T12:32:00.805+0000] {logging_mixin.py:188} INFO - [2026-08-21T12:32:00.804+0000] {dag.py:3823} INFO - Setting next_dagrun for jour7_sources_externes to 2026-08-21 00:00:00+00:00, run_after=2026-08-22 00:00:00+00:00
+[2026-08-21T12:32:00.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_sources_externes.py took 0.357 seconds
